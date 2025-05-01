@@ -10,7 +10,7 @@ Si dice **struttura dati** una entità utilizzata per organizzare un insieme di 
 >[!TIP]
 > **Iterazione su strutture dati** 
 > 
-> Tutte le strutture dati sono oggetti sui quali è possibile eseguire iterazioni. Ciò significa che esse possono essere inserite al'interno di un ciclo `for` nel quale la variabile assumerò via via il valore di ciascun elemento della strututra dati.
+> Tutte le strutture dati sono oggetti sui quali è possibile eseguire iterazioni. Ciò significa che esse possono essere inserite al'interno di un ciclo `for` nel quale la variabile assumerà via via il valore di ciascun elemento della strututra dati.
 
 ```python
 #Operazioni iniziali
