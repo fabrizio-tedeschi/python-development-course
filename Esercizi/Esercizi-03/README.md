@@ -118,3 +118,23 @@ Elemento False con chiave Chiave-2
 Elemento 157 con chiave 3
 Elemento [0, 0, 0] con chiave 7
 ```
+
+### (L) - nuotatori.py
+
+Chiedere in input un numero `k` all'utente e avviare una procedura che richiede l'inserimento dei dati di `k` nuotatori.
+
+Ogni blocco di dati possiede i seguenti quattro attributi: nome, cognome, stile, tempo (misurato in secondi).
+
+Dopo l'inserimento dei dati il programma esegue le seguenti operazioni:
+* Stampa l'elenco dei nomi e dei cognomi dei nuotatori
+* Stampa i cognomi dei nuotatori che hanno nuotato a rana in un tempo inferiore a 130 secondi.
+* Stampa tutti i dati del nuotatore che ha effettuato il tempo più basso.
+
+Testare il programma inserendo i seguenti dati:
+
+| Nome | Cognome | Stile | Tempo |
+|------|---------|-------|-------|
+|Mario|Rossi|Rana|125|
+|Luigi|Verdi|Rana|110|
+|Anna|Bianchi|Stile|80|
+|Giulia|Monti|Rana|135|
