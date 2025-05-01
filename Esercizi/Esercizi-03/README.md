@@ -147,10 +147,10 @@ Stampare la classifica dei nuotatori posizionando coloro che hanno effettuato il
 
 La classifica deve avere il seguente formato di stampa:
  ```
- 1. Bianchi - 80 - Stile
- 2. Verdi - 110 - Rana
+ 1. Bianchi - 80 - Free
+ 2. Verdi - 95 - Free
  ```
 
 Stampare in modo analogo la classifica dei soli nuotatori con stile `Free`.
 
-*Suggerimento*: per prima cosa è necessario riordinare la lista per miglior tempo. Successivamente la si scorre tutta e si procede alla stampa con le posizioni in classifica.
+>**Suggerimento**: per prima cosa è necessario riordinare la lista per miglior tempo. Successivamente la si scorre tutta e si procede alla stampa con le posizioni in classifica.

@@ -26,7 +26,7 @@ for n in nuotatori:
 print()
 print("Free con tempo inferiore a 98:")
 for n in nuotatori:
-    if(n["stile"] == "Free" and n["tempo"] < 98):
+    if n["stile"] == "Free" and n["tempo"] < 98:
         print(n["cognome"])
 
 # Stampa dati nuotatore con tempo più basso
