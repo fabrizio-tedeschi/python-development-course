@@ -13,9 +13,9 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### Guide
 
-* Installazione di GIT bash
-* Installazione di Python 3
-* Installazione di Termcolor
+* [Installazione di GIT bash](./Guide/G01-GitBash.md)
+* [Installazione di Python 3](./Guide/G02-Python.md)
+* [Installazione di Termcolor](./Guide/G03-Termcolor.md)
 
 ### Documentazione
 
