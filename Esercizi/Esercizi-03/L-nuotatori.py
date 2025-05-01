@@ -24,9 +24,9 @@ for n in nuotatori:
 
 # Stampa dei nuotatori con tempo < 130 a rana
 print()
-print("Rana con tempo inferiore a 130:")
+print("Free con tempo inferiore a 98:")
 for n in nuotatori:
-    if(n["stile"] == "Rana" and n["tempo"] < 130):
+    if(n["stile"] == "Free" and n["tempo"] < 98):
         print(n["cognome"])
 
 # Stampa dati nuotatore con tempo più basso

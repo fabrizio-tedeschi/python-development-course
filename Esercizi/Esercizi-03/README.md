@@ -127,7 +127,7 @@ Ogni blocco di dati possiede i seguenti quattro attributi: nome, cognome, stile,
 
 Dopo l'inserimento dei dati il programma esegue le seguenti operazioni:
 * Stampa l'elenco dei nomi e dei cognomi dei nuotatori
-* Stampa i cognomi dei nuotatori che hanno nuotato a rana in un tempo inferiore a 130 secondi.
+* Stampa i cognomi dei nuotatori che hanno nuotato a stile `Free` in un tempo inferiore a 98 secondi.
 * Stampa tutti i dati del nuotatore che ha effettuato il tempo più basso.
 
 Testare il programma inserendo i seguenti dati:
@@ -135,6 +135,22 @@ Testare il programma inserendo i seguenti dati:
 | Nome | Cognome | Stile | Tempo |
 |------|---------|-------|-------|
 |Mario|Rossi|Rana|125|
-|Luigi|Verdi|Rana|110|
-|Anna|Bianchi|Stile|80|
-|Giulia|Monti|Rana|135|
+|Luigi|Verdi|Free|95|
+|Anna|Bianchi|Free|80|
+|Giulia|Monti|Free|100|
+
+### (M) - classifica-nuotatori.py
+
+Inizializzare una lista `nuotatori` con 4 dictionary contenenti i dati mostrati nella tabella dell'esercizio precedente.
+
+Stampare la classifica dei nuotatori posizionando coloro che hanno effettuato il miglior tempo in alto.
+
+La classifica deve avere il seguente formato di stampa:
+ ```
+ 1. Bianchi - 80 - Stile
+ 2. Verdi - 110 - Rana
+ ```
+
+Stampare in modo analogo la classifica dei soli nuotatori con stile `Free`.
+
+*Suggerimento*: per prima cosa è necessario riordinare la lista per miglior tempo. Successivamente la si scorre tutta e si procede alla stampa con le posizioni in classifica.
