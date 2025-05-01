@@ -27,59 +27,59 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [00] - *Introduzione*
 
-* Utilizzo dei comandi testuali di sistema
-* Algoritmi, variabili e costrutti logici
-
 > [Materiali-A](./Lezioni/00%20-%20A%20-%20Comandi%20bash.md) |
 > [Materiali-B](./Lezioni/00%20-%20B%20-%20Algoritmi.md)
 
+* Utilizzo dei comandi testuali di sistema
+* Algoritmi, variabili e costrutti logici
+
 ### [01] - *Introduzione al linguaggio*
+
+> [Materiali](./Lezioni/01%20-%20Introduzione%20a%20python.md) |
+> [Esercizi](./Esercizi/Esercizi-01/)
 
 * Linguaggio interpretato
 * Tipi di dato e operatori
 * Gestione dell'I/O da terminale
 * Librerie (numeri random)
 
-> [Materiali](./Lezioni/01%20-%20Introduzione%20a%20python.md) |
-> [Esercizi](./Esercizi/Esercizi-01/)
-
 ### [02] - *Costrutti di selezione e ripetizione*
-
-* Strutture di selezione e controllo (if, elif, else)
-* Strutture di ripetizione (while, for, do-while)
 
 > [Materiali](./Lezioni/02%20-%20Strutture%20di%20selezione%20e%20ripetizione.md) |
 > [Esercizi](./Esercizi/Esercizi-02/)
 
+* Strutture di selezione e controllo (if, elif, else)
+* Strutture di ripetizione (while, for, do-while)
+
 ### [03] - *Strutture dati*
+
+> [Materiali](./Lezioni/03%20-%20Strutture%20dati.md) |
+> [Esercizi](./Esercizi/Esercizi-03/)
 
 * Liste, tuple e metodi associati
 * Dictionary e metodi associati
 * Set e metodi associati
 
-> [Materiali](./Lezioni/03%20-%20Strutture%20dati.md) |
-> [Esercizi](./Esercizi/Esercizi-03/)
-
 ### [04] - *Funzioni*
+
+> [Materiali](./Lezioni/04%20-%20Funzioni.md) |
+> [Esercizi](./Esercizi/Esercizi-04/)
 
 * Il concetto di "funzione"
 * Dichiarazione e definizione di funzioni
 * Passaggio per copia e per riferimento
 * Valori di default dei parametri
 
-> [Materiali](./Lezioni/04%20-%20Funzioni.md) |
-> [Esercizi](./Esercizi/Esercizi-04/)
-
 ### [05] - *File di testo e directory*
+
+> [Materiali](./Lezioni/05%20-%20File%20di%20testo.md) |
+> [Esercizi](./Esercizi/Esercizi-05/)
 
 * Utilizzo dei file di testo come I/O
 * File di testo come risorsa su cui salvare informazioni
 * Operare con le directory del file system
 
-> [Materiali](./Lezioni/05%20-%20File%20di%20testo.md) |
-> [Esercizi](./Esercizi/Esercizi-05/)
-
-#### Object-Oriented Programming (OOP)
+## Object-Oriented Programming (OOP)
 
 > WIP
 
