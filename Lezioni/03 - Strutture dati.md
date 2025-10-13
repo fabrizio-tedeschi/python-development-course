@@ -73,7 +73,7 @@ lo slicing di stringe tramite la sintassi `string[start:end]` dove `start` e `en
 str = "abcdefgh..."
 
 sliced = str[2:]                #cdefgh...
-sliced = str[2:5]               #def
+sliced = str[2:5]               #cde
 sliced = str[:5]                #abcde
 sliced = str[-3:]               #...
 sliced = str[:-3]               #abcdefgh
