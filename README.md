@@ -1,4 +1,4 @@
-# Python-development
+# Python-development-course
 
 Questa repository contiene tutte le informazioni ed i materiali per coloro che desiderano approcciarsi alla programmazione tramite l'utilizzo del linguaggio Python 3.
 
@@ -92,3 +92,6 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 ## Librerie
 
 > WIP
+
+### Numpy
+### Pandas
