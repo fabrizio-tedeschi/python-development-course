@@ -70,7 +70,7 @@ Lista della spesa finale:
 - Zucchero 1
 ```
 
-## (G) - task.py
+### (G) - task.py
 
 Scrivere un programma che permetta all'utente di gestire una lista di task. Un task è una stringa che descrive una attività da svolgere come ad esempio `"nuoto", "compiti", "calcio"`.
 
