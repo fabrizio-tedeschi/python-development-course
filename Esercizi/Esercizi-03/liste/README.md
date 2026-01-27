@@ -97,13 +97,64 @@ Task restanti:
 - compiti
 - calcio
 ```
-### (H) - indovina-numero.py
+
+### (H) - filtra-parole.py
+
+Si inizializzi la seguente lista:
+
+```python
+parole = ["alfabeto", "insuperabile", "", "infinito", "icaro"]
+```
+
+Si scriva un programma che crei e stampi una nuova lista contenente solamente le parole che iniziano con i caratteri `"in"`.
+
+> **Suggerimento**: sfruttare le tecniche di slicing sulle stringhe.
+
+### (I) - substring.py
+
+Si inizializzi la seguente lista:
+
+```python
+parole = ["mare", "solemarenuvole", "", "spiaggia", "amarene"]
+```
+
+Si scriva un programma che crei e stampi una nuova lista contenente solamente le stringhe che contengono la sequenza di caratteri `"mare"`.
+
+> **Suggerimento**: sfruttare l'operatore `in`.
+
+### (J) - registro.py
+
+Scrivere un programma che simula un registro elettronico scolastico usando tre liste:
+* `cognomi`: lista dei cognomi degli studenti
+* `classi`: lista delle classi degli studenti
+* `medie`: lista delle medie dei voti degli studenti
+
+Le liste contengono nella stessa posizione le informazioni di ciascuno studente. Per esempio accedendo a `cognomi[0]`, `classi[0]` e `media[0]` si ottengono cognome, classe e media dello studente in posizione 0.
+
+Per esempio se si ha:
+
+```python
+cognomi = ["Rossi", "Verdi", "Bianchi", "Neri"]
+classi = ["2A", "2B", "2A", "2C"]
+medie = [6.5, 8.2, 9.1, 6.9]
+```
+
+Allora lo studente `Bianchi` appartiene alla classe `2A` e ha una media pari a `9.1`.
+
+Il programma, quando viene avviato, esegue le seguenti operazioni:
+1. Chiede all'utente il numero di studenti che vuole inserire.
+2. Chiede all'utente le informazioni (cognome, classe e media) di uno studente alla volta e le aggiunge alla rispettive liste.
+3. Stampa i cognomi di tutti gli studenti che hanno una media inferiore a 7 preceduti da un opportuno messaggio.
+4. Chiede all'utente una classe e stampa i cognomi e le medie di tutti gli studenti appartenenti alla classe fornita.
+5. Chiede all'utente un cognome e, dopo aver effettuato gli opportuni controlli, elimina tutti i dati dello studente con quel cognome.
+
+### (K) - indovina-numero.py
 
 Scrivere un programma che inserisca in una lista 20 numeri random compresi fra -50 e 50.
 Terminata la creazione della lista  il programma chiede all'utente di inserire un valore numerico intero e controlla se questo valore è presente nella lista.
 In caso affermativo il programma stampa un messaggio di successo e l'indice a cui si trova l'elemento nella lista. In caso negativo il programma stampa un messaggio di insuccesso.
 
-### (I) - DOS-attack-defender.py
+### (L) - DOS-attack-defender.py
 
 Un indirizzo IP è una serie di 4 (da 0 a 254) numeri separati da un punto che identifica ciascun dispositivo connesso ad una rete.
 Se ne riporta un esempio: `192.50.3.231`.
@@ -123,4 +174,3 @@ Il programma si comporta come di seguito descritto:
 3. Se l'indirizzo IP non fa parte della blacklist il programma stampa il messaggio `Fornita risposta ad indirizzo IP: ...`
 
 Tali operazioni vengono ripetute 60 volte (ossia vengono effettuate 60 richieste). Al termine il programma stampa la lista senders e la blacklist.
-
