@@ -148,6 +148,8 @@ Il programma, quando viene avviato, esegue le seguenti operazioni:
 4. Chiede all'utente una classe e stampa i cognomi e le medie di tutti gli studenti appartenenti alla classe fornita.
 5. Chiede all'utente un cognome e, dopo aver effettuato gli opportuni controlli, elimina tutti i dati dello studente con quel cognome.
 
+Prima di terminare il programma stampa su output le tre liste.
+
 ### (K) - indovina-numero.py
 
 Scrivere un programma che inserisca in una lista 20 numeri random compresi fra -50 e 50.
