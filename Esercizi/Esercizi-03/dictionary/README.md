@@ -22,26 +22,25 @@ dict = {
 
 Stampare ciascuna delle sue chiavi.
 
-### (C) - estrazione-coppie.py
+### (C) - inverti-dict.py
 
-Dato il seguente dictionary:
+Dato un dictionary `d` creare e stampare un nuovo dictionary `d1` che abbia chiavi e valori invertiti rispetto a quello di origine. Per esempio:
 
 ```python
-mydict = {
-    "k1": "Primo elemento",
-    "Chiave-2": False,
-    3: 157,
-    7: [0, 0, 0] 
+
+# Partendo da
+d = {
+    "a": 10,
+    "b": 20,
+    "c": 15,
 }
-```
 
-Stampare su `stdout` ciascuna coppia chiave-valore come mostrato di seguito:
-
-```
-Elemento Primo elemento con chiave k1
-Elemento False con chiave Chiave-2
-Elemento 157 con chiave 3
-Elemento [0, 0, 0] con chiave 7
+# Si ottiene
+d1 = {
+    10: "a",
+    20: "b",
+    15: "c",
+}
 ```
 
 ### (D) - nuotatori.py
@@ -117,4 +116,42 @@ Si scriva un programma che crei un dictionary che contenga tutti i diversi prodo
     "lavatrici": 5,
     "lavastoviglie": 8
 }
+```
+
+## (H) - ordini.py
+
+Data la seguente lista di ordini:
+
+```python
+ordini = [
+    {"id": 1, "cliente": "Marco", "spesa": 250, "pagato": True},
+    {"id": 2, "cliente": "Anna", "spesa": 120, "pagato": False},
+    {"id": 3, "cliente": "Marco", "spesa": 75, "pagato": True},
+    {"id": 4, "cliente": "Luca", "spesa": 310, "pagato": False},
+    {"id": 5, "cliente": "Anna", "spesa": 90, "pagato": True}
+]
+```
+
+Scrivere un programma che:
+1. Calcola e stampa il totale delle spese
+2. Crea un dictionary `spese` con i nomi di ogni cliente come chiavi e il totale della spesa per ciascun cliente come valori
+3. Crea una nuova lista `nonpagati` e ci inserisce solamente i dictionary degli ordini non pagati (ossia gli ordini che hanno `"pagato"==False`)
+
+Per il punto 2 si vuole ottenere un dictioanry come quello che segue:
+
+```python
+{
+    "Marco": 325,
+    "Anna": 210,
+    "Luca": 310
+}
+```
+
+Per il punto 3 si vuole ottenere una lista come quella che segue:
+
+```python
+nonpagati = [
+    {"id": 2, "cliente": "Anna", "spesa": 120, "pagato": False},
+    {"id": 4, "cliente": "Luca", "spesa": 310, "pagato": False},
+]
 ```
