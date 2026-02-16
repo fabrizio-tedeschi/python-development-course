@@ -79,3 +79,42 @@ La classifica deve avere il seguente formato di stampa:
 Stampare in modo analogo la classifica dei soli nuotatori con stile `Free`.
 
 >**Suggerimento**: per prima cosa è necessario riordinare la lista per miglior tempo. Successivamente la si scorre tutta e si procede alla stampa con le posizioni in classifica.
+
+### (F) - conta-protti.py
+
+Un utente inserisce in un programma un numero `n` di prodotti che desidera inserire in un carrello e succesisvamente inserisce gli `n` prodotti uno per volta. L'utente può acquistare più pezzi dello stesso prodotto inserendolo tante volte quanti sono i pezzi che desidera acquistare.
+
+*Esempio*: se l'utente inserisce la sequenza `mela`, `pera`, `banana`, `mela` significa che desidera acquistare 2 mele, 1 pera e 1 banana.
+
+Si scriva un programma che chieda all'utente un numero `n` e successivamente l'inserimento di `n` prodotti uno per volta. Terminato l'inserimento dei prodotti il programma stampa un dictionary che ha per chiavi i nomi di ciascun prodotto inserito e per valori il numero di pezzi di ciascun prodotto che l'utente desidara acquistare.
+
+Inserendo i dati dell'esempio precedente si ottiene:
+
+```python
+{
+    "mela": 2,
+    "pera": 1,
+    "banana": 1
+}
+```
+
+### (G) - magazzino.py
+
+Si considerino i seguenti dictionary che rappresentano i prodotti all'interno di due magazzini `m1` e `m2`:
+
+```python
+m1 = {"computer": 20, "frigoriferi": 6, "smartphone": 50}
+m2 = {"computer": 25, "smartphone": 30, "lavatrici": 5, "lavastoviglie": 8}
+```
+
+Si scriva un programma che crei un dictionary che contenga tutti i diversi prodotti presenti nei vari magazzini e il loro numero complessivo. Nel caso considerato si otterrebbe:
+
+```python
+{
+    "computer": 45,
+    "frigoriferi": 6,
+    "smartphone": 80,
+    "lavatrici": 5,
+    "lavastoviglie": 8
+}
+```
