@@ -23,3 +23,7 @@ Scrivere un programma che accetta in input una serie di numeri interi positivi f
 ### (F) - min-serie.py
 
 Scrivere un programma che accetta in input una serie di numeri interi sia positivi che negativi fino a quando viene inserito il valore 0. Il programma, prima di terminare, stampa su output il valore massimo inserito.
+
+### (G) - pari-dispari.py
+
+Scrivere un programma che accetta in input dall'utente una serie di numeri interi fino a quando l'utente inserisce il valore 0. Per ciascun numero, dopo l'inserimento, stampare se è pari o dispari.

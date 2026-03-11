@@ -85,10 +85,10 @@ Un esempio di esecuzione del programma potrebbe essere il seguente:
 
 ```
 Numero di task da inserire: 4
-Inserischi task: palestra
-Inserischi task: compiti
-Inserischi task: nuoto
-Inserischi task: calcio
+Inserire task: palestra
+Inserire task: compiti
+Inserire task: nuoto
+Inserire task: calcio
 Indice di un task da eliminare: 2
 Nome di un task da eliminare: basket
 ERRORE: task inesistente
