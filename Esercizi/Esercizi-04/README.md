@@ -52,3 +52,28 @@ In matematica le soluzioni di una quazione di secondo grado del tipo `ax^2 + bx 
 
 Definire una funzione `risolvi_equazione(a, b, c)` che accetta i parametri di una equazione di secondo grado e stampa su `stdout` le due possibili soluzioni.
 Effettuare tutti i controlli opportuni sui parametri forniti e sul valore di delta calcolato.
+
+### sommanumeri.py
+
+Scrivere una funzione `sommanumeri` che accetta un numero `n` e ritorna la somma di tutti i numeri interi da `1` fino a `n`.
+
+Testare la funzione chiedendo in input il valore `n` all'utente, passarlo alla funzione e stampare il risultato.
+
+### fizzbuzz.py
+
+Definire una funzione `fizzbuzz` che accetta un numero `n` e stampa i valori da `1` fino a `n` ma che rimpiazza alcuni valori della sequenza come segue:
+* Al posto di ciascun numero multiplo di 3 stampa `fizz`
+* Al posto di ciascun numero multiplo di 5 stampa `buzz`
+* Al posto di ciascun numero multiplo sia di 3 sia di 5 stampa `fizzbuzz`
+
+Per esempio chiamando la funzione `fizzbuzz(15)` essa produrrà la sequenza:
+
+```
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+```
+
+Ma stamperà:
+
+```
+1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz
+```
