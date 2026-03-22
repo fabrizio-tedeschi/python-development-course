@@ -124,3 +124,46 @@ saluta("Mario")                             #Stampa: Ciao, Mario
 
 >[!NOTE]
 > Dato che i parametri di una funzione vengono passati IN ORDINE è sempre bene porre i parametri opzionali come ultimi parametri dell'elenco.
+
+## Approccio top-down
+
+L'approccio **top-down** in informatica è una metodologia che consiste nel suddividere un problema complesso (dall'alto) in sotto-problemi più semplici (verso il basso).
+
+L'approccio top-down viene realizzato all'interno dei programmi suddividendo un compito esteso e complesso in sotto-compiti semplici svolti da funzioni differenti.
+
+Una volta definite le diverse funzioni che risolvono i sotto-problemi una funzione principale solitamente detta `main()` si occuperà di chiamarle nell'ordine più opportuno.
+
+*Esempio*: si vuole scrivere un programma che permette di gestire ordini online di alcuni utenti. Quando un utente effettua un ordine il processo di gestione è il seguente:
+1. Viene chiesto all'utente quali prodotti desidera acquistare e questi vengono inseriti nel carrello
+2. Viene calcolato il totale del carrello
+3. Viene effettuato il pagamento
+4. Viene aggiornato l'inventario
+
+Una possibile implementazione del programma potrebbe essere la seguente:
+
+```python
+# Definizione delle funzioni base
+def inserimento_prodotti():
+    # ...
+
+def calcola_totale_carrello():
+    # ...
+
+def paga():
+    # ...
+
+def aggiorna_inventario():
+    # ...
+
+# Funzione principale (che chiama le altre)
+def main():
+    inserimento_prodotti()
+    calcola_totale_carrello()
+
+    pagato = paga()
+    if(pagato == True):
+        agggiorna_inventario()
+
+# Inizio del programma chiamando la funzione principale
+main()
+```
