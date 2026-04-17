@@ -20,7 +20,7 @@ esempio sarà `5! = 5 * 4 * 3 * 2 * 1`. Inoltre per definizione `0! = 1`.
 Definire una funzione `fattoriale(n)` che accetta un numero intero positivo `n` e ne calcola il fattoriale restituendolo
 come valore di ritorno.
 
-### sommanumeri.py
+### somma-numeri.py
 
 Scrivere una funzione `sommanumeri` che accetta un numero `n` e ritorna la somma di tutti i numeri interi da `1` fino a `n`.
 
@@ -45,6 +45,31 @@ Ma stamperà:
 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz
 ```
 
+### equazioni.py
+
+In matematica le soluzioni di una quazione di secondo grado del tipo `ax^2 + bx + c = 0`si calcolano tramite la seguente formula:
+
+![formula](../../Lezioni/images/formula-equazioni.jpg)
+
+**IMPORTANTE**: se DELTA risulta essere minore di 0, l'equazione NON possiede soluzioni reali.
+
+Definire una funzione `risolvi_equazione(a, b, c)` che accetta i parametri di una equazione di secondo grado e stampa su `output` le due possibili soluzioni.
+Effettuare tutti i controlli opportuni sui parametri forniti e sul valore di delta calcolato.
+
+## Funzioni e liste
+
+### somma-multipli.py
+
+Definire e testare una funzione che data una lista `l` di numeri interi e un numero `n`, ritorna la somma dei soli multipli di `n`.
+
+### filtra-nomi.py
+
+Definire una funzione che data una lista `l` di nomi (stringhe) e un carattere `ch` ritorna una nuova lista contenente solo i nomi che iniziano con la lettera `ch`.
+
+### filtra-parole.py
+
+Definire una funzione che data una lista `l` di parole (stringhe) e una stringa `s` ritorna una nuova lista contenente solo le parole che iniziano con la stringa `s`.
+
 ### rimuovi-occorrenze.py
 
 Definire una funzione `rimuovi_occorrenze(l, e)` che accetta una lista `l` e un elemento `e`. La funzione restituisce una nuova
@@ -67,14 +92,3 @@ persone = [
     {"Nome": "Maria", "Cognome": "Callas", "Anni": 35, "Altezza": 190}        
 ]
 ```
-
-### equazioni.py
-
-In matematica le soluzioni di una quazione di secondo grado del tipo `ax^2 + bx + c = 0`si calcolano tramite la seguente formula:
-
-![formula](../../Lezioni/images/formula-equazioni.jpg)
-
-**IMPORTANTE**: se DELTA risulta essere minore di 0, l'equazione NON possiede soluzioni reali.
-
-Definire una funzione `risolvi_equazione(a, b, c)` che accetta i parametri di una equazione di secondo grado e stampa su `stdout` le due possibili soluzioni.
-Effettuare tutti i controlli opportuni sui parametri forniti e sul valore di delta calcolato.
