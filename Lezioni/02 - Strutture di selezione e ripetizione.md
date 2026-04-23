@@ -76,6 +76,28 @@ else:
 	print("Il valore di x è basso")
 ```
 
+## Match case
+
+Il **match case** è una struttura di controllo che permette di implementare il matching su una specifica variabile. La struttura è definita come segue:
+
+```python
+status = int(input("Inserire un valore di stato: "))
+
+match status:
+	case 200:
+		print("200: Tutto ok!")
+	case 400:
+		print("500: Errore del client")
+	case 500:
+		print("500: Errore del server")
+	case _:
+		print("Codice sconosciuto")
+```
+
+Nel caso in esame viene valutato il contenuto della variabile `status` e stampato il messaggio corrispondente a tale valore.
+
+Si noti che non essendo possibile definire tutti i casi possibili vi è l'opportunità di usare il caso `_` per stampare un certo messaggio qualora venga inserito un codice diverso da tutti quelli specificati in precedenza.
+
 ## Strutture di ripetizione - cicli
 
 Il ciclo `while` permette di ripetere le istruzioni contenute al suo interno fino al verificarsi di una certa condizione.
