@@ -102,7 +102,7 @@ Anna,Bianchi,18
 Luigi,Verdi,21
 ```
 
-Per estrarre dati è possibile sfruttare il metoto * `.split(ch)`delle stringhe: esso trasforma una stringa in una lista in cui ogni elemento è una sotto-stringa di quella originale.
+Per estrarre dati è possibile sfruttare il metoto `.split(ch)`delle stringhe: esso trasforma una stringa in una lista in cui ogni elemento è una sotto-stringa di quella originale.
 
 ```python
 s = "Mario,Rossi,16"
@@ -113,7 +113,7 @@ print(l)                # Stampa: ["Mario", "Rossi", "16"]
 Il codice che permette di estarre dati da un file `.csv` potrebbe essere quindi il seguente:
 
 ```python
-# lettura di tutte le linee del file
+# Lettura di tutte le linee del file
 f = open("data.csv", "r")
 lines = f.readlines()
 f.close()
