@@ -39,22 +39,22 @@ La struttura di selezione `if` accetta una certa condizione ed esegue le istruzi
 
 ```python
 if condizione:
-	#Istruzioni eseguite in caso di condizione VERA
+	# Istruzioni eseguite in caso di condizione VERA
 else:
-	#Istruzioni eseguite in caso di condizione FALSA
+	# Istruzioni eseguite in caso di condizione FALSA
 ```
 
 La struttura `if` permette di verificare diverse condizioni *in cascata* tramite l'utilizzo di `elif` (else if) come mostrato nel seguito.
 
 ```python
 if c1:
-	#Istruzioni eseguite in caso c1 sia VERA
+	# Istruzioni eseguite in caso c1 sia VERA
 elif c2:
-	#Istruzioni eseguite in caso c1 sia FALSA ma c2 VERA
+	# Istruzioni eseguite in caso c1 sia FALSA ma c2 VERA
 elif c3:
-	#Istruzioni eseguite in caso c1 e c2 siano FALSE ma c3 VERA
+	# Istruzioni eseguite in caso c1 e c2 siano FALSE ma c3 VERA
 else:
-	#Istruzioni eseguite in caso di c1, c2, c3 tutte FALSE
+	# Istruzioni eseguite in caso di c1, c2, c3 tutte FALSE
 ```
 
 >[!TIP]
@@ -63,17 +63,12 @@ else:
 ```python
 x = 15
 
-if x > 10:
-	#Istruzione eseguita solo in caso x sia > 10
-	print("Il valore x è maggiore di 10")
-
-elif x > 12:
-	#Istruzione che non sarà MAI eseguita: se x è > 12 per forza è anche > 10: si cade nel caso precedente!
-	print("Questa print non viene MAI eseguita")
-
+if x < 10:
+	print("Il valore x è minore di 10")
+elif x > 20:
+	print("Il valore x è maggiore di 20")
 else:
-	#Istruzione eseguita in caso x sia <= 10
-	print("Il valore di x è basso")
+	print("Il valore di x è compreso fra 10 e 20")
 ```
 
 ## Match case
@@ -103,30 +98,30 @@ Si noti che non essendo possibile definire tutti i casi possibili vi è l'opport
 Il ciclo `while` permette di ripetere le istruzioni contenute al suo interno fino al verificarsi di una certa condizione.
 
 ```python
-#Istruzioni iniziali
+# Istruzioni iniziali
 
 while condizione:
-	#Istruzioni da ripetere
+	# Istruzioni da ripetere
 
-#Istruzioni successive
+# Istruzioni successive
 ```
 
 Il ciclo `for` permette di ripetere le istruzioni contenute al suo interno per un numero finito di volte.
 
 ```python
-#Istruzioni iniziali
+# Istruzioni iniziali
 
 for var in oggetto_iterabile:
-	#Istruzioni da ripetere
+	# Istruzioni da ripetere
 
-#Istruzioni successive
+# Istruzioni successive
 ```
 
 >[!NOTE]
 >Durante ciascuna iterazione del ciclo for la variabile di controllo `var` assume un valore differente!
 
 ```python
-#Stampa di tutti i numeri da 1 fino a 9
+# Stampa di tutti i numeri da 1 fino a 9
 
 for i in range(1, 10):
 	print(i)
@@ -147,10 +142,10 @@ In python NON esiste un costrutto per implementare direttamente un ciclo do-whil
 Vengono di seguito riportate due possibili implementazione del ciclo do-while
 
 ```python
-#Impostazione di una variabile di controllo
+# Impostazione di una variabile di controllo
 flag = True
 
-#Implementazione del ciclo
+# Implementazione del ciclo
 while flag:
     print("Sono nel ciclo")
     flag = False
@@ -158,10 +153,10 @@ print("Sono uscito dal ciclo")
 ```
 
 ```python
-#Dichiarazione variabile con valore da incrementare
+# Dichiarazione variabile con valore da incrementare
 i = 0
 
-#Implementazione del ciclo do-while
+# Implementazione del ciclo do-while
 while True:
     print("Sono nel ciclo")
     if(i > 3):
@@ -180,16 +175,16 @@ L'aggiunta di della parola chiave `else` al termine di un ciclo iterativo permet
 
 ```python
 while condizione:
-    #Istruzioni del ciclo
+    # Istruzioni del ciclo
 else:
-    #Istruzioni da eseguire solo se il ciclo non viene interrotto
+    # Istruzioni da eseguire solo se il ciclo non viene interrotto
 
 #---------------------------------------------------------------------------#
 
 for var in oggetto_iterabile:
-    #Istruzioni del ciclo
+    # Istruzioni del ciclo
 else:
-    #Istruzioni da eseguire solo se il ciclo non viene interrotto
+    # Istruzioni da eseguire solo se il ciclo non viene interrotto
 ```
 
 ![cicli-else](./images/cicli-else.jpg)

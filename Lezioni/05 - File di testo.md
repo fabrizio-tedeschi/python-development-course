@@ -10,11 +10,11 @@ linea tramite tale carattere.
 Per creare un file è possibile sfruttare la funzione `open()` come mostrato di seguito.
 
 ```python
-#Creazione di un nuovo file alla posizione corrente e apertura in scrittura
-open("nome", "w")
+# Creazione di un nuovo file alla posizione corrente e apertura in scrittura
+f = open("nome", "w")
 
-#Creazione di un nuovo file solo se questo non esiste già
-open("nome", "x")
+# Creazione di un nuovo file solo se questo non esiste già
+f = open("nome", "x")
 ```
 
 La funzione `open(percorso/nomefile, mode)` permette inoltre di aprire un file secondo la modalità specificata come parametro.
@@ -29,8 +29,8 @@ Essa restituisce un riferimento al file aperto.
 | Aggiunta (append)   | `a`     | Permette di scrivere dati partendo dalla fine del file |
 
 ```python
-#Apertura di un file esistente in lettura
-open("documenti/prova.txt", "r")
+# Apertura di un file esistente in lettura
+f = open("documenti/prova.txt", "r")
 ```
 
 ## Lettura e scrittura dati da file
@@ -39,24 +39,24 @@ Per operare con i file, Python mette a disposizione i seguenti metodi:
 
 * `.read(nchar)`: legge i `nchar` caratteri dal file e li restituisce come stringa. Se non viene specificato nessun parametro essa restituisce tutti i caratteri del file come stringa.
 * `.write(str)`: inserisce la stringa `str` passata come argomento all'interno del file.
-* `.readline(maxchar)`: legge una linea del file e la restituisce come stringa. In caso sia specificato `nmax` vengono letti al massimo `nmax` caratteri.
+* `.readline(nmax)`: legge una linea del file e la restituisce come stringa. In caso sia specificato `nmax` vengono letti al massimo `nmax` caratteri.
 * `.readlines()`: legge tutte le linee del file e le restituisce come elementi di una lista
 * `.writelines(list)`: inserisce gli elementi (stringhe) della lista `list` all'interno del file
 
 Viene riposrtato di seguito un esempio di utilizzo delle funzioni di lettura/scrittura:
 
 ```python
-#Apertura dei file
+# Apertura dei file
 f1 = open("inputfile.txt", "r")
 f2 = open("outputfile.txt", "a")
 
-#Lettura di una linea dal primo file
+# Lettura di una linea dal primo file
 linea = f1.readline()
 
-#Scrittura della linea sul secondo file
+# Scrittura della linea sul secondo file
 f2.write(linea)
 
-#Chiusura dei file
+# Chiusura dei file
 f1.close()
 f2.close()
 ```
@@ -88,6 +88,47 @@ f.seek(0)
 #Chiusura dei file
 f.close()
 ```
+
+## File in formato .csv
+
+I file in formato `.csv` vengono spesso rappresentati come tabelle. Ogni riga contiene lo stesso numero di elementi separati da uno specifico carattere separatore (`,` oppure `;`).
+
+Di seguito un esempio di file `.csv` che contiene i dati anagrafici di alcune persone:
+
+```
+Nome,Cognome,Anni
+Mario,Rossi,16
+Anna,Bianchi,18
+Luigi,Verdi,21
+```
+
+Per estrarre dati è possibile sfruttare il metoto * `.split(ch)`delle stringhe: esso trasforma una stringa in una lista in cui ogni elemento è una sotto-stringa di quella originale.
+
+```python
+s = "Mario,Rossi,16"
+l = s.plit(",")
+print(l)                # Stampa: ["Mario", "Rossi", "16"] 
+```
+
+Il codice che permette di estarre dati da un file `.csv` potrebbe essere quindi il seguente:
+
+```python
+# lettura di tutte le linee del file
+f = open("data.csv", "r")
+lines = f.readlines()
+f.close()
+
+# Operazioni su ogni linea esclusa l'intestazione
+for line in lines[1:]:
+    line = line.replace("\n")
+    line = line.split(",")
+    
+    # Operazioni sui vari elementi della linea
+```
+
+## File in formato .json
+
+> TODO
 
 ## Operare con le directory del file system
 

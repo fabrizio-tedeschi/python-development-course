@@ -4,7 +4,7 @@ Una **funzione** è una unità di organizzazione del codice. Essa permette di ra
 un nome un insieme di istruzioni.
 
 ```
-#Definizione di una funzione
+# Definizione di una funzione
 def nome_funzione(parametri):
     Istruzioni
     return valore_da_restituire
@@ -13,7 +13,7 @@ def nome_funzione(parametri):
 Per eseguire l'insieme di istruzioni è possibile **chiamare** o **invocare** la funzione tramite il proprio nome.
 
 ```
-#Chiamata di una funzione
+# Chiamata di una funzione
 nome_funzione(parametri)
 ```
 
@@ -22,7 +22,7 @@ Una funzione può svolgere le operazioni in essa contenute utilizzando una serie
 Una funzione può fornire un **valore di ritorno** che può essere salvato in una variabile. Solitamente esso è il risultato prodotto dalle istruzioni eseguite.
 
 ```
-#Chiamata di una funzione e salvataggio valore di ritorno
+# Chiamata di una funzione e salvataggio valore di ritorno
 risultato = nome_funzione(parametri)
 ```
 
@@ -37,12 +37,12 @@ risultato = nome_funzione(parametri)
 ### Definizione di una funzione
 
 ```python
-#Definizione della funzione
+# Definizione della funzione
 def nome_funzione(par1, par2, par2):
-    #Istruzioni della funzione...
+    # Istruzioni della funzione...
     return risultato
 
-#Chiamata della funzione
+# Chiamata della funzione
 x = 7
 res = nome_funzione(1, "Mario", x)
 ```
@@ -53,9 +53,9 @@ Di seguito un esempio di una funzione che saluta l'utente:
 def saluta(nome):
     print("Buongiorno!", nome)
 
-#Chiamata della funzione
-saluta("Mario")                     #Stampa: Buongiorno! Mario
-saluta("Genoveffa")                 #Stampa: Buongiorno! Genoveffa
+# Chiamata della funzione
+saluta("Mario")                     # Stampa: Buongiorno! Mario
+saluta("Genoveffa")                 # Stampa: Buongiorno! Genoveffa
 ```
 
 >[!NOTE]
@@ -68,9 +68,9 @@ saluta("Genoveffa")                 #Stampa: Buongiorno! Genoveffa
 >   return lista
 > 
 > l = [1, 2, 3]
-> l = aggiungi_elemento(l, 4)               #Ritorna: [1, 2, 3, 4]
-> l = aggiungi_elemento(l, 5)               #Ritorna: [1, 2, 3, 4, 5]
-> nuova = aggiungi_elemento(75, 2)          #ERRORE: il valore 75 non possiede il metodo .append()
+> l = aggiungi_elemento(l, 4)               # Ritorna: [1, 2, 3, 4]
+> l = aggiungi_elemento(l, 5)               # Ritorna: [1, 2, 3, 4, 5]
+> nuova = aggiungi_elemento(75, 2)          # ERRORE: il valore 75 non possiede il metodo .append()
 > ```
 
 ## Passaggio per copia e per riferimento
@@ -84,24 +84,24 @@ Si consideri il seguente esempio:
 
 ```python
 def aggiungi(x):
-    return x + 10                           #Ritorna: x + 10
+    return x + 10                           # Ritorna: x + 10
 
 def aggiungi_elemento(lista, elemento):
-    lista.append(elemento)                  #Aggiunge l'elemento alla lista l
-    return lista                            #Ritorna un nuovo riferimento alla lista l
+    lista.append(elemento)                  # Aggiunge l'elemento alla lista l
+    return lista                            # Ritorna un nuovo riferimento alla lista l
 
 var = 15
 l = [1, 2, 3]
 
 res = aggiungi(var)
-print(var)                                  #Stampa: 15
-print(res)                                  #Stampa: 25
+print(var)                                  # Stampa: 15
+print(res)                                  # Stampa: 25
 
 risultato = aggiungi_elemento(l, 4)
 risultato.append(5)
 
-print(l)                                    #Stampa: [1, 2, 3, 4, 5]
-print(risultato)                            #Stampa: [1, 2, 3, 4, 5]
+print(l)                                    # Stampa: [1, 2, 3, 4, 5]
+print(risultato)                            # Stampa: [1, 2, 3, 4, 5]
 ```
 
 >[!TIP]
@@ -118,8 +118,8 @@ Per impostare un valore di default di un parametro si utilizza l'operatore `=` a
 def saluta(nome, messaggio = "Ciao,"):
     print(messaggio, nome)
 
-saluta("Mario", "Benvenuto!")               #Stampa: Benvenuto! Mario
-saluta("Mario")                             #Stampa: Ciao, Mario
+saluta("Mario", "Benvenuto!")               # Stampa: Benvenuto! Mario
+saluta("Mario")                             # Stampa: Ciao, Mario
 ```
 
 >[!NOTE]
@@ -167,3 +167,7 @@ def main():
 # Inizio del programma chiamando la funzione principale
 main()
 ```
+
+## Programmi a menu
+
+> TODO

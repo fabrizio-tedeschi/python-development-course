@@ -13,12 +13,12 @@ Si dice **struttura dati** una entità utilizzata per organizzare un insieme di 
 > Tutte le strutture dati sono oggetti sui quali è possibile eseguire iterazioni. Ciò significa che esse possono essere inserite al'interno di un ciclo `for` nel quale la variabile assumerà via via il valore di ciascun elemento della strututra dati.
 
 ```python
-#Operazioni iniziali
+# Operazioni iniziali
 
 for elemento in struttura_dati:
-    #Operazioni da eseguire durante ciascuna iterazione
+    # Operazioni da eseguire durante ciascuna iterazione
 
-#Operazioni successive
+# Operazioni successive
 ```
 
 ## Stringhe come strutture dati
@@ -50,18 +50,18 @@ Come tutte le strutture dati, anche le stringe possiedono metodi, se ne riportan
 
 ```python
 l = ["Oggi", "fuori", "piove"]
-out = l.join()                      #out = "Oggi fuori piove"
-div = out.split()                   #div = ["Oggi", "fuori", "piove"]
+out = l.join()                      # out = "Oggi fuori piove"
+div = out.split()                   # div = ["Oggi", "fuori", "piove"]
 ```
 
 * `.format(p1, p2, ...)`: Permette di definire campi variabili in una stringa e formattarla con i parametri passati;
 
 ```python
 str = "Parte fissa della stringa seguita da un campo: {}"
-print(str.format("Campo X"))                #Stampa: "Parte fissa della stringa seguita da un campo: Campo X"
+print(str.format("Campo X"))                # Stampa: "Parte fissa della stringa seguita da un campo: Campo X"
 
 nome = "MARIO"
-print(str.format(nome))               #Stampa: "Parte fissa della stringa seguita da un campo: MARIO"
+print(str.format(nome))               # Stampa: "Parte fissa della stringa seguita da un campo: MARIO"
 ```
 
 ### Slicing di stringhe
@@ -72,11 +72,11 @@ lo slicing di stringe tramite la sintassi `string[start:end]` dove `start` e `en
 ```python
 str = "abcdefgh..."
 
-sliced = str[2:]                #cdefgh...
-sliced = str[2:5]               #cde
-sliced = str[:5]                #abcde
-sliced = str[-3:]               #...
-sliced = str[:-3]               #abcdefgh
+sliced = str[2:]                # cdefgh...
+sliced = str[2:5]               # cde
+sliced = str[:5]                # abcde
+sliced = str[-3:]               # ...
+sliced = str[:-3]               # abcdefgh
 ```
 
 ## Tuple
@@ -84,7 +84,7 @@ sliced = str[:-3]               #abcdefgh
 Le tuple sono insiemi IMMUTABILI di elementi. Ciò significa che esse vengono inizializzate e non possono essere modificate successivamente.
 
 ```python
-#Definizione di una tupla
+# Definizione di una tupla
 colori = ("rosso", "verde", "blue", "giallo")
 ```
 
@@ -98,13 +98,13 @@ Le liste python sono insiemi che possiedono le seguenti caratteristiche:
 * La lista è una struttura dati variabile nel tempo (può subire modifiche)
 
 ```python
-#Definizione di una lista vuota
+# Definizione di una lista vuota
 empty_list = []
 
-#Inizializzazione di una lista
+# Inizializzazione di una lista
 my_list = ["Mario", 15, "Mele", "Pere", 37]
 
-#Stampa delle liste
+# Stampa delle liste
 print(empty_list)
 print(my_list)
 ```
@@ -113,7 +113,7 @@ print(my_list)
 > Poichè le liste python non pongono limiti ai tipi di elemento in esse contenuti una lista può contenere altre liste.
 
 ```python
-#Inizializzazione di una lista composta da liste di due elementi ciascuna
+# Inizializzazione di una lista composta da liste di due elementi ciascuna
 coppie = [[1, 2], [10, 20], [100, 200]]
 ```
 
@@ -127,34 +127,51 @@ Per accedere agli elementi di una lista è possibile utilizzare l'operatore `[]`
 ![lista](./images/lista.jpg)
 
 ```python
-#Inizializzazione di una lista di numeri
+# Inizializzazione di una lista di numeri
 dispari = [1, 3, 5, 7, 9]
 
-print(dispari[0])           #Stampa: 1
-print(dispari[1])           #Stampa: 3
-print(dispari[-1])          #Stampa: 9
+print(dispari[0])           # Stampa: 1
+print(dispari[1])           # Stampa: 3
+print(dispari[-1])          # Stampa: 9
 ```
 
 Per modificare gli elementi di una lista è possibile utilizzare l'operatore di assegnazione `=`:
 
 ```python
-#Inizializzazione di una lista di numeri
+# Inizializzazione di una lista di numeri
 l = [1, 2]
 
-#Modifica del secondo elemento
+# Modifica del secondo elemento
 l[1] = 50
-print(l)                    #Stampa: [1, 50]
+print(l)                    # Stampa: [1, 50]
 ```
 
 Nel caso si voglia accedere a ciascun elemento della lista ed effettuare operazioni su di esso, allora risulta opportuno un ciclo `for` per iterare sulla lista:
 
 ```python
-#Inizializzazione di una lista di numeri
+# Inizializzazione di una lista di numeri
 dispari = [1, 3, 5, 7, 9]
 
-#Stampa di ciascun elemento moltiplicato per 10
+# Stampa di ciascun elemento moltiplicato per 10
 for e in dispari:
     print(e * 10)
+```
+
+### Funzioni che si applicano sulle liste
+
+Le seguenti funzioni possono accettare una lista come argomento:
+
+* `len()`: ritorna il numero di elementi della lista
+* `sum()`: ritorna la somma degli elementi della lista **se sono TUTTI numerici**.
+* `max()`: ritorna l'elemento massimo della presente all'interno della lista.
+* `min()`: ritorna l'elemento minimo della presente all'interno della lista.
+
+```python
+l = ["occhiali", "matita", "penna"]
+
+print(len(l))           # Stampa: 3
+print(max(l))           # Stampa: penna
+print(min(l))           # Stampa: matita
 ```
 
 ### Metodi dell liste
@@ -171,25 +188,25 @@ I **metodi** sono funzioni proprie delle liste che permettono di modificarle (al
 * `.count(e)`: restituisce il numero di occorrenze di `e` presenti nella lista;
 
 ```python
-#Definizione di una lista vuota
+# Definizione di una lista vuota
 l = []
 
-#Aggiunta di tre elementi
+# Aggiunta di tre elementi
 l.append(3)
 l.append("parola")
 l.append(50)
 
-#Inserimento di un elemento in posizione 1
+# Inserimento di un elemento in posizione 1
 l.insert(1, 5)
 
-#Rimozione della stringa
+# Rimozione della stringa
 l.remove("parola")
 
-#Rimozione del primo elemento
+# Rimozione del primo elemento
 popped = l.pop(0)
 
-print(popped)               #Stampa: 3
-print(l)                    #Stampa: [5, 50]
+print(popped)               # Stampa: 3
+print(l)                    # Stampa: [5, 50]
 ```
 
 ## Dictionary
@@ -200,7 +217,7 @@ I dictionary sono insiemi di coppie chiave-valore in cui ciascuna chiave è asso
 * Ciacun *valore* è un elemento che può essere un numero, una stringa, una lista, una tupla o un'altro dictionary
 
 ```python
-#Creazione di un dictionary vuoto
+# Creazione di un dictionary vuoto
 empty_dict = {}
 ```
 
@@ -209,7 +226,7 @@ empty_dict = {}
 Per accedere agli elementi di una lista è possibile utilizzare l'operatore `[]` posto al termine del nome del dictionary.
 
 ```python
-#Definizione di un dictionary per rappresentare una persona
+# Definizione di un dictionary per rappresentare una persona
 persona_uno = {
     "nome": "Mario",
     "cognome": "Rossi",
@@ -218,7 +235,7 @@ persona_uno = {
     "Studente": True
 }
 
-#Stampa di nome, cognome e anni
+# Stampa di nome, cognome e anni
 print("Dati anagrafici:", persona_uno["nome"], persona_uno["cognome"], persona_uno["anni"])
 ```
 
@@ -227,16 +244,16 @@ print("Dati anagrafici:", persona_uno["nome"], persona_uno["cognome"], persona_u
 > Per evitare tale errore è possibile ricorrere al metodo `.get(k, other)` che ritorna il valore associato alla chiave `k` oppure l'elemento `other` oppure `None` (il vuoto) in caso il secondo parametro non sia specificato.
 
 ```python
-#Definizione di un dictionary
+# Definizione di un dictionary
 my_dict = {
     "k1": "Mele",
     "k2": "Pere"
 }
 
-#Utilizzo del metodo get
-print(my_dict.get("k1"))                            #Stampa: Mele
-print(my_dict.get("k3"))                            #Stampa: None
-print(my_dict.get("k3", "Chiave inesistente"))      #Stampa: chiave inesistente
+# Utilizzo del metodo get
+print(my_dict.get("k1"))                            # Stampa: Mele
+print(my_dict.get("k3"))                            # Stampa: None
+print(my_dict.get("k3", "Chiave inesistente"))      # Stampa: chiave inesistente
 ```
 
 ### Modifica degli elementi e aggiunta di nuove chiavi
@@ -260,28 +277,28 @@ prodotti[158] = "Rame"
 
 I dictionary python possiedono i seguenti metodi:
 
-* `.keys()`: restituisce le chiavi del dicionay come lista
-* `.values()`: restituisce i valori del dicionay come lista
-* `.items()`: restituisce una lista di tuple di due elementi (chiave-valore)
+* `.keys()`: restituisce le chiavi del dicionay come oggetto iterabile
+* `.values()`: restituisce i valori del dicionay come oggetto iterabile
+* `.items()`: restituisce una lista di tuple di due elementi `(chiave, valore)`
 
 ```python
-#Definizione di un dictionary
+# Definizione di un dictionary
 my_dict = {
     "k1": "Mele",
     "k2": "Pere"
 }
 
-keys = my_dict.keys()           #Restituisce: ["k1", "k2"]
-values = my_dict.values()       #Restituisce: ["Mele", "Pere"]
-items = my_dict.items()         #Restituisce: [("k1", "Mele"), ("k2", "Pere")]
+keys = my_dict.keys()           # Restituisce: ["k1", "k2"]
+values = my_dict.values()       # Restituisce: ["Mele", "Pere"]
+items = my_dict.items()         # Restituisce: [("k1", "Mele"), ("k2", "Pere")]
 ```
 
 Per iterare sugli oggetti di un dictionary è possibile utilizzare una coppia di variabili come mostrato nel seguito:
 
 ```python
-#Iterazione su oggetti di un dictionary
+# Iterazione su oggetti di un dictionary
 for k, v in my_dict.items():
-    #Operazioni da svolgere durante ciascuna iterazione
+    # Operazioni da svolgere durante ciascuna iterazione
 
-#Operazioni successive
+# Operazioni successive
 ```

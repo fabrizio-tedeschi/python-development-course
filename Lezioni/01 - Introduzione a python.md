@@ -35,13 +35,13 @@ Il nuovo valore di `var` è costituito dal suo valore precedente (8) a cui viene
 
 ```python
 x = 15
-x = x + 1		#Ora x vale 16
+x = x + 1		# Ora x vale 16
 
 y = "1"
-y = y + "1"		#Ora y vale "11"
+y = y + "1"		# Ora y vale "11"
 
 z = 5
-z = z + "3"		#ERRORE
+z = z + "3"		# ERRORE
 ```
 
 ### Scambio di variabili
@@ -52,9 +52,9 @@ Per scambiare due variabili è sempre necessaria una variabile temporanea di app
 a = 15
 b = 20
 
-tmp = a 		#Salvo il valore di a (15) in tmp
-a = b 			#Inserisco in a il valore di b (20)
-b = tmp 		#Inserisco in b il valore di tmp (15)
+tmp = a 		# Salvo il valore di a (15) in tmp
+a = b 			# Inserisco in a il valore di b (20)
+b = tmp 		# Inserisco in b il valore di tmp (15)
 ```
 
 ![scambiovariabili](./images/scambiovar.jpg)
@@ -65,7 +65,7 @@ Senza la variabile temporanea, nel momento in cui il valore di una delle due var
 a = 15
 b = 20
 
-b = a 			#Ora b vale 15, ma anche a vale ancora 15: il valore 20 è andato perduto per sempre!
+b = a 			# Ora b vale 15, ma anche a vale ancora 15: il valore 20 è andato perduto per sempre!
 ```
 
 ## Operatori
@@ -84,24 +84,24 @@ Gli **operatori** permettono di eseguire confronti o modifiche ai dati delle var
 * `or` --> restituisce `True` se almeno una delle condizioni ai suoi estremi è vera
 
 ```python
-#Assegnazioni
+# Assegnazioni
 a = 3
 b = 5
 c = 3
 
-#Confronti
-a == b                          #False
-a == c                          #True
+# Confronti
+a == b                          # False
+a == c                          # True
 
-a != b                          #True
-a != c                          #False
+a != b                          # True
+a != c                          # False
 
-a >= c                          #True
+a >= c                          # True
 
-a == 3 and b == 5               #True
-a == 1 and b == 5               #False
-a == 1 or b == 5                #True
-a == 1 or b == 1                #False
+a == 3 and b == 5               # True
+a == 1 and b == 5               # False
+a == 1 or b == 5                # True
+a == 1 or b == 1                # False
 ```
 
 ### Operatori matematici
@@ -115,22 +115,22 @@ a == 1 or b == 1                #False
 * `%` --> restituisce il RESTO della divisione intera fra due valori
 
 ```python
-#Assegnazioni
+# Assegnazioni
 a = 10
 b = 3
 c = "stringa"
 
-#Operazioni
-a + b 				#Restituisce 13
-a - b				#Restituisce 7
-c + c               #Restituisce "stringastringa"
-a + c               #Errore: non si può sommare un intero con una stringa
+# Operazioni
+a + b 				# Restituisce 13
+a - b				# Restituisce 7
+c + c               # Restituisce "stringastringa"
+a + c               # Errore: non si può sommare un intero con una stringa
 
-a * b 				#Restituisce 30
-a / b				#Restituisce 3.333333
-2*c                 #Restituisce "stringastringa"
+a * b 				# Restituisce 30
+a / b				# Restituisce 3.333333
+2*c                 # Restituisce "stringastringa"
 
-a % b 				#Restituisce 1
+a % b 				# Restituisce 1
 ```
 
 >[!TIP]
@@ -149,15 +149,15 @@ Di seguito un esempio di utilizzo della funzione `print()`:
 
 ```python
 x = 7
-print("Ciao", "mare", "yeah!")						#Ciao mare yeah!
-print("La variabile x vale", x)						#La variabile x vale 7
+print("Ciao", "mare", "yeah!")						# Ciao mare yeah!
+print("La variabile x vale", x)						# La variabile x vale 7
 ```
 
 Di seguito un esempio di utilizzo della funzione `input()`:
 
 ```python
-x = input("Inserire il valore di x: ")				#Attende il valore fornito dall'utente e lo inserisce in x
-print("La variabile x vale", x)						#La variabile x vale 7
+x = input("Inserire il valore di x: ")				# Attende il valore fornito dall'utente e lo inserisce in x
+print("La variabile x vale", x)						# La variabile x vale 7
 ```
 
 >[!TIP]
@@ -167,9 +167,9 @@ print("La variabile x vale", x)						#La variabile x vale 7
 >* `str()`: trasforma il valore passato in una stringa
 
 ```python
-x = int(input("Inserire il valore di x: "))             #Attende il valore fornito dall'utente e lo trasforma in intero
+x = int(input("Inserire il valore di x: "))             # Attende il valore fornito dall'utente e lo trasforma in intero
 x = x + 5
-print("La variabile x vale", x)                         #Stampa il valore fornito dall'utente aumentato di 5
+print("La variabile x vale", x)                         # Stampa il valore fornito dall'utente aumentato di 5
 ```
 
 >[!NOTE]
@@ -180,27 +180,27 @@ print("La variabile x vale", x)                         #Stampa il valore fornit
 Spesso per gestire varie operazioni ricorrenti esistono **librerie** già implementate da altri programmatori che permettono di svolgere varie istruzioni. Tali librerie, per essere utilizzate, devono essere importate prima dell'inizio del programma.
 
 ```python
-#Importare una libreria intera
+# Importare una libreria intera
 import nome_libreria
 
-#Importare una sola funzione da una libreria
+# Importare una sola funzione da una libreria
 from nome_libreria import nome_funzione
 ```
 
 Di seguito due esempi di utilizzo della libreria random:
 
 ```python
-#Importazione della libreria random
+# Importazione della libreria random
 import random
 
-rnd = random.randint(0, 50)					#Genera un numero compreso fra 0 e 49
+rnd = random.randint(0, 50)					# Genera un numero compreso fra 0 e 49
 print("Stampo un numero casuale:", rnd)
 ```
 
 ```python
-#Importazione della funzione randint 
+# Importazione della funzione randint 
 from random import randint
 
-rnd = randint(0, 50)						#Genera un numero compreso fra 0 e 49
+rnd = randint(0, 50)						# Genera un numero compreso fra 0 e 49
 print("Stampo un numero casuale:", rnd)
 ```
