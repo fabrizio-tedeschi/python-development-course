@@ -36,11 +36,11 @@ Dato il file `files/numeri.txt` si scriva un programma che esegue le seguenti op
 * Stampa la media della sequenza di numeri contenuta nel file
 * Stampa massimo e minimo della sequenza di numeri contenuta nel file
 
-**Complicazione**: anzichè stampare i risultati su terminale, inserirli all'interno di un nuovo file nominato `risultati.txt`.
+**Complicazione**: anzichè stampare i risultati su terminale, inserirli all'interno di un nuovo file nominato `files/risultati.txt`.
 
 ### dati-calciatori.py
 
-Si consideri il file `calciatori.csv` che contiene un elenco di cognomi di calciatori e i goal effettuati in diverse partite.
+Si consideri il file `files/calciatori.csv` che contiene un elenco di cognomi di calciatori e i goal effettuati in diverse partite.
 
 Scrivere un programma che:
 * Stampa il totale dei goal per ogni calciatore
