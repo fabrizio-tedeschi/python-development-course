@@ -29,3 +29,19 @@ Dato il file `files/secondo.txt` scrivere un programma che chieda all'utente di 
 di volte in cui la parola passata compare all'interno del file.
 
 > **Suggerimento**: si veda il funzionamento del metodo delle stringhe .split() e lo si applichi opportunamente al programma.
+
+### file-numerico.py
+
+Dato il file `files/numeri.txt` si scriva un programma che esegue le seguenti operazioni:
+* Stampa la media della sequenza di numeri contenuta nel file
+* Stampa massimo e minimo della sequenza di numeri contenuta nel file
+
+**Complicazione**: anzichè stampare i risultati su terminale, inserirli all'interno di un nuovo file nominato `risultati.txt`.
+
+### dati-calciatori.py
+
+Si consideri il file `calciatori.csv` che contiene un elenco di cognomi di calciatori e i goal effettuati in diverse partite.
+
+Scrivere un programma che:
+* Stampa il totale dei goal per ogni calciatore
+* Stampa il cognome del calciatore che ha effettuato più goal

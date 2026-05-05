@@ -6,11 +6,11 @@
 
 Definire una funzione `area_triangolo(base, altezza)`. La funzione accetta base e altezza (in centimetri) di un triangolo e restituisce la sua area.
 
-### potenza.py
+### somma-numeri.py
 
-Definire una funzione `potenza(base, esponente)`. La funzione calcola la potenza con base `base` ed esponente `esponente`
-restituendo il risultato. La funzione deve effettuare tutti i controlli necessari su base ed esponente (es. numeri negativi).
-Per lo svolgimento di questo esercizio viene fatto divieto dell'utilizzo dell'operatore `**`.
+Scrivere una funzione `sommanumeri` che accetta un numero `n` e ritorna la somma di tutti i numeri interi da `1` fino a `n`.
+
+Testare la funzione chiedendo in input il valore `n` all'utente, passarlo alla funzione e stampare il risultato.
 
 ### fattoriale.py
 
@@ -20,11 +20,11 @@ esempio sarà `5! = 5 * 4 * 3 * 2 * 1`. Inoltre per definizione `0! = 1`.
 Definire una funzione `fattoriale(n)` che accetta un numero intero positivo `n` e ne calcola il fattoriale restituendolo
 come valore di ritorno.
 
-### somma-numeri.py
+### potenza.py
 
-Scrivere una funzione `sommanumeri` che accetta un numero `n` e ritorna la somma di tutti i numeri interi da `1` fino a `n`.
-
-Testare la funzione chiedendo in input il valore `n` all'utente, passarlo alla funzione e stampare il risultato.
+Definire una funzione `potenza(base, esponente)`. La funzione calcola la potenza con base `base` ed esponente `esponente`
+restituendo il risultato. La funzione deve effettuare tutti i controlli necessari su base ed esponente (es. numeri negativi).
+Per lo svolgimento di questo esercizio viene fatto divieto dell'utilizzo dell'operatore `**`.
 
 ### fizzbuzz.py
 

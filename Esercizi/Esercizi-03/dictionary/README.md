@@ -1,13 +1,13 @@
 # Esercizi 03 - Dictionary
 
-### (A) - prodotti.py
+### prodotti.py
 
 Inizializzare un dictionary vuoto `prodotti`. Ciascuna chiave di tale dictionary è costituita da un intero progressivo maggiore di 1,
 ciascun valore da una stringa che contiene il nome di un prodotto di un supermercato.
 
 Si chieda all'utente di inserire 10 prodotti e successivamente si stampi ciascun prodotto (valore) assieme al proprio codice associato (chiave).
 
-### (B) - estrazione-chiavi.py
+### estrazione-chiavi.py
 
 Dato il seguente dictionary:
 
@@ -22,7 +22,7 @@ dict = {
 
 Stampare ciascuna delle sue chiavi.
 
-### (C) - inverti-dict.py
+### inverti-dict.py
 
 Dato un dictionary `d` creare e stampare un nuovo dictionary `d1` che abbia chiavi e valori invertiti rispetto a quello di origine. Per esempio:
 
@@ -43,7 +43,7 @@ d1 = {
 }
 ```
 
-### (D) - nuotatori.py
+### nuotatori.py
 
 Chiedere in input un numero `k` all'utente e avviare una procedura che richiede l'inserimento dei dati di `k` nuotatori.
 
@@ -63,7 +63,7 @@ Testare il programma inserendo i seguenti dati:
 |Anna|Bianchi|Free|80|
 |Giulia|Monti|Free|100|
 
-### (E) - classifica-nuotatori.py
+### classifica-nuotatori.py
 
 Inizializzare una lista `nuotatori` con 4 dictionary contenenti i dati mostrati nella tabella dell'esercizio precedente.
 
@@ -79,7 +79,7 @@ Stampare in modo analogo la classifica dei soli nuotatori con stile `Free`.
 
 >**Suggerimento**: per prima cosa è necessario riordinare la lista per miglior tempo. Successivamente la si scorre tutta e si procede alla stampa con le posizioni in classifica.
 
-### (F) - conta-protti.py
+### conta-protti.py
 
 Un utente inserisce in un programma un numero `n` di prodotti che desidera inserire in un carrello e succesisvamente inserisce gli `n` prodotti uno per volta. L'utente può acquistare più pezzi dello stesso prodotto inserendolo tante volte quanti sono i pezzi che desidera acquistare.
 
@@ -97,7 +97,7 @@ Inserendo i dati dell'esempio precedente si ottiene:
 }
 ```
 
-### (G) - magazzino.py
+### magazzino.py
 
 Si considerino i seguenti dictionary che rappresentano i prodotti all'interno di due magazzini `m1` e `m2`:
 
@@ -118,7 +118,7 @@ Si scriva un programma che crei un dictionary che contenga tutti i diversi prodo
 }
 ```
 
-## (H) - ordini.py
+## ordini.py
 
 Data la seguente lista di ordini:
 

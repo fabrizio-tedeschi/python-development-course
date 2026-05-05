@@ -1,6 +1,6 @@
 # Esercizi 03 - Liste
 
-### (A) - iterazione.py
+### iterazione.py
 
 Inizializzare una tupla di 6 frutti. Stampare ogni voce della tupla seguita dal proprio indice di posizione (a partire da 0). Si utilizzi un ciclo `for` per iterare sulla tupla. Viene fornito di seguito un esempio di output.
 
@@ -11,20 +11,20 @@ In posizione 1 si trova l'elemento: Pere
 In posizione 5 si trova l'elemento: Ciliege
 ```
 
-### (B) - aggiungi-nomi.py
+### aggiungi-nomi.py
 
 Scrivere un programma python che chieda in input all'utente 5 nomi e li inserisca all'interno di una lista.
 Dopo l'inserimento di ciascun nome il programma stampa il messaggio "DEBUG - inserito nome in posizione x" dove x è l'indice (progressivo) di posizione di ciascun elemento.
 Prima di terminare il programma stampa su `stdout` la lista generata.
 
-### (C) - stampa-pari.py
+### stampa-pari.py
 
 Scrivere un progrmma che esegua le seguenti operazioni:
 * Chieda all'utente di inserire 6 valori numerici in una lista
 * Crei una nuova lista contenente solo i numeri pari
 * Stampi la lista dei numeri pari e la sua lunghezza
 
-### (D) - rimuovi-posizioni-dispari.py
+### rimuovi-posizioni-dispari.py
 
 Inizializzare una lista come la seguente:
 
@@ -35,7 +35,7 @@ l = ["Mario", 15, "Luigi", 16, "Bianca", 20, "Rosa", 15, "Anna", 20]
 Scrivere un programma che sostituisca tutti gli elementi in posizione dispari con una stringa vuota e stampando per ciascuna rimozione il messaggio "DEBUG - rimosso elemento: x" dove x è ciascun valore rimosso.
 Prima di terminare il programma stampa la lista e la sua lunghezza dopo le operazioni di rimozione.
 
-### (E) - ordinamento.py
+### ordinamento.py
 
 Siano date le seguenti liste python `l1` ed `l2`:
 
@@ -51,7 +51,7 @@ Scrivere un programma che ordini:
 
 > Suggerimento: NON sono necessari algoritmi di ordinamento, sono sufficienti i metodi delle liste.
 
-### (F) - lista-spesa.py
+### lista-spesa.py
 
 Scrivere un programma che permetta all'utente di gestire una lista della spesa. Il programma svolge le seguenti operazioni in ordine:
 * Chiede all'utente il numero di prodotti che desidera inserire nella lista `l`
@@ -70,7 +70,7 @@ Lista della spesa finale:
 - Zucchero 1
 ```
 
-### (G) - task.py
+### task.py
 
 Scrivere un programma che permetta all'utente di gestire una lista di task. Un task è una stringa che descrive una attività da svolgere come ad esempio `"nuoto", "compiti", "calcio"`.
 
@@ -98,7 +98,7 @@ Task restanti:
 - calcio
 ```
 
-### (H) - filtra-parole.py
+### filtra-parole.py
 
 Si inizializzi la seguente lista:
 
@@ -110,7 +110,7 @@ Si scriva un programma che crei e stampi una nuova lista contenente solamente le
 
 > **Suggerimento**: sfruttare le tecniche di slicing sulle stringhe.
 
-### (I) - substring.py
+### substring.py
 
 Si inizializzi la seguente lista:
 
@@ -122,7 +122,7 @@ Si scriva un programma che crei e stampi una nuova lista contenente solamente le
 
 > **Suggerimento**: sfruttare l'operatore `in`.
 
-### (J) - registro.py
+### registro.py
 
 Scrivere un programma che simula un registro elettronico scolastico usando tre liste:
 * `cognomi`: lista dei cognomi degli studenti
@@ -150,13 +150,13 @@ Il programma, quando viene avviato, esegue le seguenti operazioni:
 
 Prima di terminare il programma stampa su output le tre liste.
 
-### (K) - indovina-numero.py
+### indovina-numero.py
 
 Scrivere un programma che inserisca in una lista 20 numeri random compresi fra -50 e 50.
 Terminata la creazione della lista  il programma chiede all'utente di inserire un valore numerico intero e controlla se questo valore è presente nella lista.
 In caso affermativo il programma stampa un messaggio di successo e l'indice a cui si trova l'elemento nella lista. In caso negativo il programma stampa un messaggio di insuccesso.
 
-### (L) - DOS-attack-defender.py
+### DOS-attack-defender.py
 
 Un indirizzo IP è una serie di 4 (da 0 a 254) numeri separati da un punto che identifica ciascun dispositivo connesso ad una rete.
 Se ne riporta un esempio: `192.50.3.231`.
