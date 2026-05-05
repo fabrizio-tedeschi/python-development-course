@@ -128,7 +128,37 @@ for line in lines[1:]:
 
 ## File in formato .json
 
-> TODO
+I file in formato `.json` sono file testuali usati come standard universali per lo scambio di dati strutturati sottoforma di stringa.
+
+Di seguito un esempio di file `.json` che contiene i dati anagrafici di alcune persone:
+
+```json
+[
+    {"nome": "Mario", "cognome": "Rossi", "anni": 16},
+    {"nome": "Anna", "cognome": "Bianchi", "anni": 18},
+    {"nome": "Luigi", "cognome": "Verdi", "anni": 21},
+]
+```
+
+Un file `.json` ha corrispondenze precise con le strutture dati python note. Per sempio, il json precedente può essere convertito in una lista di dictionary.
+
+La libreria `json` mette a disposizione alcuni metodi per leggere/scrivere file `.json` oppure per gestire stringhe in tale formato:
+
+* `.load(f)`: legge il file `f` e restituisce una struttura dati python equivalente ai dati contenuti nel file.
+* `.dump(j, f)`: inserisce la struttura dati `j` all'interno del file `f`.
+
+```python
+import json
+
+# Caricamento dati da file .json
+with open("data.json", "r") as f1:
+    data = json.load(f1)
+
+# Scrittura dati in file .json
+persona = {"nome": "Mario", "cognome": "Rossi", "anni": 16}
+with open("out.json", "w") as f2:
+    json.dump(persona, f2)
+```
 
 ## Operare con le directory del file system
 
