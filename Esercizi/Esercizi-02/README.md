@@ -1,8 +1,24 @@
 # Esercizi 02 - Strutture di selezione e ripetizione
 
+### segno.py
+
+Scrivere un programma che chiede in input all'utente un numero e verifica se tale numero è positivo, negativo oppure zero. Il programma stampa un opportuno messaggio su terminale.
+
 ### maggiorenne.py
 
 Scrivere un programma che accetta in input nome, cognome e anni di una persona. Il programma stampa su output i dati della persona e se è maggiorenne o meno.
+
+### abbonamento-palestra.py
+
+Scrivere un programma che si occupa di calcolare il costo di un abbonamento di una palestra seguendo i seguenti criteri:
+
+* Ogni abbonamento ha un costo mensile di 30€
+* Se l'utente è minorenne si ha una aggiunta di 10€ per l'assicurazione
+* Le persone con età inferiore a 20 anni o superiore a 60 hanno uno sconto del 20% sul prezzo complessivo
+* Se l'abbonamento supera i 4 mesi si ha diritto a uno sconto del 30% sul totale, se supera gli 8 mesi si ha diritto a uno sconto del 40% sul totale.
+* Gli sconti dovuti all'età e al numero di mesi sono cumulabili.
+
+Chiedere in input all'utente l'età e il numero di mesi per i quali desidera effettuare l'abbonamento e stampare il costo dell'abbonamento.
 
 ### serie-interi.py
 

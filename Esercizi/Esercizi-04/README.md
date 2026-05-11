@@ -75,6 +75,17 @@ Definire una funzione che data una lista `l` di parole (stringhe) e una stringa 
 Definire una funzione `rimuovi_occorrenze(l, e)` che accetta una lista `l` e un elemento `e`. La funzione restituisce una nuova
 lista dalla quale sono state rimosse tutte le occorrenze di `e`.
 
+### intersezione.py
+
+Scrivere un programma e inizializzare le liste seguenti:
+
+```python
+l1 = [1, 2, 3, 4, 5, 6]
+l2 = [4, 5, 6, 7, 8, 9, 10]
+```
+
+Si definisca una funzione `intersezione` che accetta due liste `l1` e `l2` che restituisce una nuova lista `out` che contiene solamente gli elementi presenti sia in `l1` sia in `l2`. Perciò si otterrà `out = [4, 5, 6]`.
+
 ### dati-maggiorenni.py
 
 Definire una funzione `dati_maggiorenni(lista)`. La funzione accetta una lista di dictionary contenenti i dati di alcune persone.
