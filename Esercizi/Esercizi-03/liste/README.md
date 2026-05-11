@@ -11,20 +11,22 @@ In posizione 1 si trova l'elemento: Pere
 In posizione 5 si trova l'elemento: Ciliege
 ```
 
-### aggiungi-nomi.py
-
-Scrivere un programma python che chieda in input all'utente 5 nomi e li inserisca all'interno di una lista.
-Dopo l'inserimento di ciascun nome il programma stampa il messaggio "DEBUG - inserito nome in posizione x" dove x è l'indice (progressivo) di posizione di ciascun elemento.
-Prima di terminare il programma stampa su `stdout` la lista generata.
-
 ### stampa-pari.py
 
 Scrivere un progrmma che esegua le seguenti operazioni:
-* Chieda all'utente di inserire 6 valori numerici in una lista
+* Chieda all'utente di inserire 6 valori numerici in una lista (uno alla volta)
 * Crei una nuova lista contenente solo i numeri pari
 * Stampi la lista dei numeri pari e la sua lunghezza
 
-### rimuovi-posizioni-dispari.py
+### rimuovi-duplicati
+
+Scrivere un programma che chiede in input all'utente una valore `n` e successivamente chiede all'utente `n` numeri interi e li inserisce in una lista.
+
+Rimuovere dalla lista tutti i doppioni di ciascun elemento e stampare il risultato.
+
+Per esempio se la lista di partenza è `[1, 5, 7, 7, 5, 7, 2]` si otterrà `[1, 2, 5, 7]`.
+
+### sostituisci-posizioni-dispari.py
 
 Inizializzare una lista come la seguente:
 
@@ -34,6 +36,12 @@ l = ["Mario", 15, "Luigi", 16, "Bianca", 20, "Rosa", 15, "Anna", 20]
 
 Scrivere un programma che sostituisca tutti gli elementi in posizione dispari con una stringa vuota e stampando per ciascuna rimozione il messaggio "DEBUG - rimosso elemento: x" dove x è ciascun valore rimosso.
 Prima di terminare il programma stampa la lista e la sua lunghezza dopo le operazioni di rimozione.
+
+### indovina-numero.py
+
+Scrivere un programma che inserisca in una lista 20 numeri random compresi fra -50 e 50.
+Terminata la creazione della lista  il programma chiede all'utente di inserire un valore numerico intero e controlla se questo valore è presente nella lista.
+In caso affermativo il programma stampa un messaggio di successo e l'indice a cui si trova l'elemento nella lista. In caso negativo il programma stampa un messaggio di insuccesso.
 
 ### ordinamento.py
 
@@ -51,24 +59,29 @@ Scrivere un programma che ordini:
 
 > Suggerimento: NON sono necessari algoritmi di ordinamento, sono sufficienti i metodi delle liste.
 
-### lista-spesa.py
+### filtra-parole.py
 
-Scrivere un programma che permetta all'utente di gestire una lista della spesa. Il programma svolge le seguenti operazioni in ordine:
-* Chiede all'utente il numero di prodotti che desidera inserire nella lista `l`
-* Chiede all'utente i prodotti da inserire e li inserisce nella lista uno per volta
-* Ordina la lista in ordine alfabetico
-* Chiede in input all'utente le quantità che desidera acquistare per ciascun prodotto salvandola in una seconda lista `qt`
-* Stampa la lista della spesa stampando un prodotto per volta seguito dalla sua quantità
+Si inizializzi la seguente lista:
 
-Un esempio della stampa finale potrebbe essere:
-
+```python
+parole = ["alfabeto", "insuperabile", "", "infinito", "icaro"]
 ```
-Lista della spesa finale:
-- Acqua 6
-- Banane 2
-- Biscotti 10
-- Zucchero 1
+
+Si scriva un programma che crei e stampi una nuova lista contenente solamente le parole che iniziano con i caratteri `"in"`.
+
+> **Suggerimento**: sfruttare le tecniche di slicing sulle stringhe.
+
+### substring.py
+
+Si inizializzi la seguente lista:
+
+```python
+parole = ["mare", "solemarenuvole", "", "spiaggia", "amarene"]
 ```
+
+Si scriva un programma che crei e stampi una nuova lista contenente solamente le stringhe che contengono la sequenza di caratteri `"mare"`.
+
+> **Suggerimento**: sfruttare l'operatore `in`.
 
 ### task.py
 
@@ -98,29 +111,26 @@ Task restanti:
 - calcio
 ```
 
-### filtra-parole.py
+## Liste parallele
 
-Si inizializzi la seguente lista:
+### lista-spesa.py
 
-```python
-parole = ["alfabeto", "insuperabile", "", "infinito", "icaro"]
+Scrivere un programma che permetta all'utente di gestire una lista della spesa. Il programma svolge le seguenti operazioni in ordine:
+* Chiede all'utente il numero di prodotti che desidera inserire nella lista `l`
+* Chiede all'utente i prodotti da inserire e li inserisce nella lista uno per volta
+* Ordina la lista in ordine alfabetico
+* Chiede in input all'utente le quantità che desidera acquistare per ciascun prodotto salvandola in una seconda lista `qt`
+* Stampa la lista della spesa stampando un prodotto per volta seguito dalla sua quantità
+
+Un esempio della stampa finale potrebbe essere:
+
 ```
-
-Si scriva un programma che crei e stampi una nuova lista contenente solamente le parole che iniziano con i caratteri `"in"`.
-
-> **Suggerimento**: sfruttare le tecniche di slicing sulle stringhe.
-
-### substring.py
-
-Si inizializzi la seguente lista:
-
-```python
-parole = ["mare", "solemarenuvole", "", "spiaggia", "amarene"]
+Lista della spesa finale:
+- Acqua 6
+- Banane 2
+- Biscotti 10
+- Zucchero 1
 ```
-
-Si scriva un programma che crei e stampi una nuova lista contenente solamente le stringhe che contengono la sequenza di caratteri `"mare"`.
-
-> **Suggerimento**: sfruttare l'operatore `in`.
 
 ### registro.py
 
@@ -149,12 +159,6 @@ Il programma, quando viene avviato, esegue le seguenti operazioni:
 5. Chiede all'utente un cognome e, dopo aver effettuato gli opportuni controlli, elimina tutti i dati dello studente con quel cognome.
 
 Prima di terminare il programma stampa su output le tre liste.
-
-### indovina-numero.py
-
-Scrivere un programma che inserisca in una lista 20 numeri random compresi fra -50 e 50.
-Terminata la creazione della lista  il programma chiede all'utente di inserire un valore numerico intero e controlla se questo valore è presente nella lista.
-In caso affermativo il programma stampa un messaggio di successo e l'indice a cui si trova l'elemento nella lista. In caso negativo il programma stampa un messaggio di insuccesso.
 
 ### DOS-attack-defender.py
 
