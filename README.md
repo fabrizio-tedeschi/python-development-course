@@ -27,15 +27,15 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [00] - *Introduzione*
 
-> [Materiali-A](./Lezioni/00%20-%20A%20-%20Comandi%20bash.md) |
-> [Materiali-B](./Lezioni/00%20-%20B%20-%20Algoritmi.md)
+> [Materiali-A](./Lezioni/base/00-A-comandi-bash.md) |
+> [Materiali-B](./Lezioni/base/00-B-algoritmi.md)
 
 * Utilizzo dei comandi testuali di sistema
 * Algoritmi, variabili e costrutti logici
 
 ### [01] - *Introduzione al linguaggio*
 
-> [Materiali](./Lezioni/01%20-%20Introduzione%20a%20python.md) |
+> [Materiali](./Lezioni/base/01-introduzione-python.md) |
 > [Esercizi](./Esercizi/Esercizi-01/)
 
 * Linguaggio interpretato
@@ -45,7 +45,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [02] - *Costrutti di selezione e ripetizione*
 
-> [Materiali](./Lezioni/02%20-%20Strutture%20di%20selezione%20e%20ripetizione.md) |
+> [Materiali](./Lezioni/base/02-strutture-selezione-ripetizione.md) |
 > [Esercizi](./Esercizi/Esercizi-02/)
 
 * Strutture di selezione e controllo (if, elif, else)
@@ -53,7 +53,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [03] - *Strutture dati*
 
-> [Materiali](./Lezioni/03%20-%20Strutture%20dati.md) |
+> [Materiali](./Lezioni/base/03-strutture-dati.md) |
 > [Esercizi](./Esercizi/Esercizi-03/)
 
 * Liste, tuple e metodi associati
@@ -62,7 +62,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [04] - *Funzioni*
 
-> [Materiali](./Lezioni/04%20-%20Funzioni.md) |
+> [Materiali](./Lezioni/base/04-funzioni.md) |
 > [Esercizi](./Esercizi/Esercizi-04/)
 
 * Il concetto di "funzione"
@@ -72,7 +72,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [05] - *File di testo e directory*
 
-> [Materiali](./Lezioni/05%20-%20File%20di%20testo.md) |
+> [Materiali](./Lezioni/base/05-file.md) |
 > [Esercizi](./Esercizi/Esercizi-05/)
 
 * Utilizzo dei file di testo come I/O
@@ -95,3 +95,8 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### Numpy
 ### Pandas
+
+* Introduzione alla librebria
+* Series
+* DataFrame
+* Data management con Pandas
