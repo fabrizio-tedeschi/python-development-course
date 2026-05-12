@@ -39,19 +39,17 @@ Per ricavare la lunghezza di caratteri contenuti in una stringa è possibile uti
 
 Come tutte le strutture dati, anche le stringe possiedono metodi, se ne riportano alcuni
 
-* `.isalpha()`: Restituisce `True` se la stringa contiene solo caratteri alfabetici;
-* `.isdecimal()`: Restituisce `True` se la stringa contiene solo caratteri numerici;
-
-* `.upper()`: Restituisce la stessa stringa ma con tutti i caratteri in maiuscolo;
-* `.lower()`: Restituisce la stessa stringa ma con tutti i caratteri in minuscolo;
-
-* `string.split()`: Restituisce una lista in cui ogni elemento è una parola della stringa;
-* `list.join()`: Restituisce una stringa composta da ciascuno degli elementi della lista separati da spazi;
+* `.isalpha()`: Restituisce `True` se la stringa contiene solo caratteri alfabetici.
+* `.isdecimal()`: Restituisce `True` se la stringa contiene solo caratteri numerici.
+* `.upper()`: Restituisce la stessa stringa ma con tutti i caratteri in maiuscolo.
+* `.lower()`: Restituisce la stessa stringa ma con tutti i caratteri in minuscolo.
+* `.split(ch)`: Restituisce una lista in cui ogni elemento è una parola della stringa. Lo split avviene sul carattere passato come parametro.
+* `.join(ls)`: Restituisce una stringa composta da ciascuno degli elementi della lista di stringhe passata, gli elementi sono separati da spazi.
 
 ```python
 l = ["Oggi", "fuori", "piove"]
-out = l.join()                      # out = "Oggi fuori piove"
-div = out.split()                   # div = ["Oggi", "fuori", "piove"]
+out = "".join(l)                     # out = "Oggi fuori piove"
+div = out.split("")                    # div = ["Oggi", "fuori", "piove"]
 ```
 
 * `.format(p1, p2, ...)`: Permette di definire campi variabili in una stringa e formattarla con i parametri passati;
