@@ -2,14 +2,11 @@
 
 Questa repository contiene tutte le informazioni ed i materiali per coloro che desiderano approcciarsi alla programmazione tramite l'utilizzo del linguaggio Python 3.
 
-> [Logbook con argomenti delle lezioni](./Lezioni/2024-logbook.md)
-
 ### Software
 
 * [GIT Bash](https://git-scm.com/downloads): applicativo per l'interpretazione di comandi testuali (terminale).
-* [Sublime text](https://www.sublimetext.com/): editor di testo per la scrittura agevolata dei file di codice.
-* [Python 3](https://www.python.org/downloads/): interprete del linguaggio di programmazione.
 * [PyCharm Community Edition](https://www.jetbrains.com/pycharm/): ambiente di sviluppo (IDE) per progetti python avanzati. (Fare scroll down nella pagina per eseguire il download della versione community gratuita).
+* [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview): gestore di pacchetti e ambienti virtuali.
 
 ### Guide
 
@@ -17,7 +14,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * [Installazione di Python 3](./Guide/G02-Python.md)
 * [Installazione di Termcolor](./Guide/G03-Termcolor.md)
 
-### Documentazione
+### Fonti e risorse online
 
 * [OFFICIAL TUTORIAL](https://docs.python.org/3/tutorial/index.html)
 * [W3SCHOOL](https://www.w3schools.com/python/)
@@ -91,12 +88,15 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ## Librerie
 
+### Numpy
+
 > WIP
 
-### Numpy
 ### Pandas
 
-* Introduzione alla librebria
+> [Materiali](./Lezioni/librerie/pandas/) |
+> [Esercizi](./Esercizi/Esercizi-pandas/)
+
 * Series
 * DataFrame
-* Data management con Pandas
+* Dataset management
