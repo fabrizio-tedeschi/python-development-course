@@ -57,7 +57,7 @@ Scrivere un programma che ordini:
 * La lista di stringhe `l1` in ordine alfabetico dalla A alla Z (ordine crescente).
 * Il programma ordina la lista `l2` in ordine numerico decrescente.
 
-> Suggerimento: NON sono necessari algoritmi di ordinamento, sono sufficienti i metodi delle liste.
+**Suggerimento**: NON sono necessari algoritmi di ordinamento, sono sufficienti i metodi delle liste.
 
 ### filtra-parole.py
 
@@ -69,7 +69,7 @@ parole = ["alfabeto", "insuperabile", "", "infinito", "icaro"]
 
 Si scriva un programma che crei e stampi una nuova lista contenente solamente le parole che iniziano con i caratteri `"in"`.
 
-> **Suggerimento**: sfruttare le tecniche di slicing sulle stringhe.
+**Suggerimento**: sfruttare le tecniche di slicing sulle stringhe.
 
 ### substring.py
 

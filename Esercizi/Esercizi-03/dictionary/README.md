@@ -7,20 +7,16 @@ ciascun valore da una stringa che contiene il nome di un prodotto di un supermer
 
 Si chieda all'utente di inserire 10 prodotti e successivamente si stampi ciascun prodotto (valore) assieme al proprio codice associato (chiave).
 
-### estrazione-chiavi.py
+### medie-generali.py
 
-Dato il seguente dictionary:
+Creare un dictionary inizialmente vuoto `medie` che avrà come chiavi i cognomi degli studenti (stringhe) e come valori la loro media (numero decimale). 
 
-```python
-dict = {
-    "k1": "Primo elemento",
-    "Chiave-2": False,
-    3: 157,
-    7: [0, 0, 0] 
-}
-```
+Chiedere in input all'utente un numero `n` e successivamente chiedere all'utente i dati (cognomi e medie) di `n` studenti e inserirli nel dictionary.
 
-Stampare ciascuna delle sue chiavi.
+Successivamente:
+* Stampare il dictionary
+* Chiedere in input all'utente un cognome
+* Stampare la media dello studente con quel cognome se esiste, altrimenti stampare il messaggio "*studente inesistente*".
 
 ### inverti-dict.py
 
@@ -118,7 +114,7 @@ Si scriva un programma che crei un dictionary che contenga tutti i diversi prodo
 }
 ```
 
-## ordini.py
+### ordini.py
 
 Data la seguente lista di ordini:
 
