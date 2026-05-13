@@ -18,6 +18,24 @@ Successivamente:
 * Chiedere in input all'utente un cognome
 * Stampare la media dello studente con quel cognome se esiste, altrimenti stampare il messaggio "*studente inesistente*".
 
+### conta-protti.py
+
+Un utente inserisce in un programma un numero `n` di prodotti che desidera inserire in un carrello e succesisvamente inserisce gli `n` prodotti uno per volta. L'utente può acquistare più pezzi dello stesso prodotto inserendolo tante volte quanti sono i pezzi che desidera acquistare.
+
+*Esempio*: se l'utente inserisce la sequenza `mela`, `pera`, `banana`, `mela` significa che desidera acquistare 2 mele, 1 pera e 1 banana.
+
+Si scriva un programma che chieda all'utente un numero `n` e successivamente l'inserimento di `n` prodotti uno per volta. Terminato l'inserimento dei prodotti il programma stampa un dictionary che ha per chiavi i nomi di ciascun prodotto inserito e per valori il numero di pezzi di ciascun prodotto che l'utente desidara acquistare.
+
+Inserendo i dati dell'esempio precedente si ottiene:
+
+```python
+{
+    "mela": 2,
+    "pera": 1,
+    "banana": 1
+}
+```
+
 ### inverti-dict.py
 
 Dato un dictionary `d` creare e stampare un nuovo dictionary `d1` che abbia chiavi e valori invertiti rispetto a quello di origine. Per esempio:
@@ -74,24 +92,6 @@ La classifica deve avere il seguente formato di stampa:
 Stampare in modo analogo la classifica dei soli nuotatori con stile `Free`.
 
 >**Suggerimento**: per prima cosa è necessario riordinare la lista per miglior tempo. Successivamente la si scorre tutta e si procede alla stampa con le posizioni in classifica.
-
-### conta-protti.py
-
-Un utente inserisce in un programma un numero `n` di prodotti che desidera inserire in un carrello e succesisvamente inserisce gli `n` prodotti uno per volta. L'utente può acquistare più pezzi dello stesso prodotto inserendolo tante volte quanti sono i pezzi che desidera acquistare.
-
-*Esempio*: se l'utente inserisce la sequenza `mela`, `pera`, `banana`, `mela` significa che desidera acquistare 2 mele, 1 pera e 1 banana.
-
-Si scriva un programma che chieda all'utente un numero `n` e successivamente l'inserimento di `n` prodotti uno per volta. Terminato l'inserimento dei prodotti il programma stampa un dictionary che ha per chiavi i nomi di ciascun prodotto inserito e per valori il numero di pezzi di ciascun prodotto che l'utente desidara acquistare.
-
-Inserendo i dati dell'esempio precedente si ottiene:
-
-```python
-{
-    "mela": 2,
-    "pera": 1,
-    "banana": 1
-}
-```
 
 ### magazzino.py
 
