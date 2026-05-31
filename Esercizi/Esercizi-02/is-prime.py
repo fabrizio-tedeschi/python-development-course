@@ -1,4 +1,3 @@
-#Input di un numero intero
 x = int(input("Inseire un numero: "))
 
 #Inizializzazione di una variabile di controllo

@@ -1,8 +1,6 @@
-# Inizializzazione variabili
 min = 0
 primoval = True
 
-# Richiesta di valori in input fino a quando viene inserito 0
 while True:
     n = int(input("Inseire un numero (0 per terminare): "))
 

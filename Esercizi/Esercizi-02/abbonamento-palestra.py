@@ -1,8 +1,6 @@
-# Input dei dati
 anni = int(input("Quanti hanni hai? "))
 n_mesi = int(input("Quanti mesi di abbonamento desideri? "))
 
-# Calcolo del prezzo
 costo_mese = 30
 costo_assicurazione = 10
 
@@ -21,5 +19,4 @@ elif n_mesi >= 4:
     sconto = prezzo / 100 * 30
     prezzo -= sconto
 
-# Stampa del risultato
 print("Totale da pagare:", prezzo)
