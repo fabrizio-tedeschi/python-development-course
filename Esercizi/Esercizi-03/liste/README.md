@@ -20,22 +20,21 @@ Scrivere un progrmma che esegua le seguenti operazioni:
 
 ### rimuovi-duplicati
 
-Scrivere un programma che chiede in input all'utente una valore `n` e successivamente chiede all'utente `n` numeri interi e li inserisce in una lista.
+Scrivere un programma che chiede in input all'utente un valore `n` e successivamente chiede all'utente `n` numeri interi e li inserisce in una lista. Ordinare la lista in ordine decrescente.
 
-Rimuovere dalla lista tutti i doppioni di ciascun elemento e stampare il risultato.
+Creare una nuova lista senza valori duplicati.
 
-Per esempio se la lista di partenza è `[1, 5, 7, 7, 5, 7, 2]` si otterrà `[1, 2, 5, 7]`.
+Per esempio se la lista di partenza è `[1, 5, 7, 7, 5, 7, 2]` si otterrà `[7, 5, 2, 1]`.
 
-### sostituisci-posizioni-dispari.py
+### statistiche.py
 
-Inizializzare una lista come la seguente:
+Chiedere in input all'utente un valore `n` e successivamente avviare la procedura di richiesta e inserimento di `n` numeri interi all'interno di una lista.
 
-```python
-l = ["Mario", 15, "Luigi", 16, "Bianca", 20, "Rosa", 15, "Anna", 20]
-```
+Stampare successivamente somma, prodotto e media dei numeri contenuti nella lista.
 
-Scrivere un programma che sostituisca tutti gli elementi in posizione dispari con una stringa vuota e stampando per ciascuna rimozione il messaggio "DEBUG - rimosso elemento: x" dove x è ciascun valore rimosso.
-Prima di terminare il programma stampa la lista e la sua lunghezza dopo le operazioni di rimozione.
+### estremi.py
+
+Riempire una lista con 10 numeri interi random compresi fra -50 e -20. Stampare successivamente il valore massimo e minimo fra gli elementi della lista.
 
 ### indovina-numero.py
 
@@ -56,8 +55,6 @@ Scrivere un programma che ordini:
 
 * La lista di stringhe `l1` in ordine alfabetico dalla A alla Z (ordine crescente).
 * Il programma ordina la lista `l2` in ordine numerico decrescente.
-
-**Suggerimento**: NON sono necessari algoritmi di ordinamento, sono sufficienti i metodi delle liste.
 
 ### filtra-parole.py
 
@@ -160,6 +157,22 @@ Il programma, quando viene avviato, esegue le seguenti operazioni:
 
 Prima di terminare il programma stampa su output le tre liste.
 
+### calciatori.py
+
+Scrivere un programma a menu che simula un gestore di giocatori di calcio utilizzando tre liste parallele:
+* `cognomi`: lista dei cognomi dei giocatori
+* `squadre`: lista delle squadre dei giocatori
+* `valori_mercato`: lista dei valori di mercato
+
+Le liste contengono nella stessa posizione le informazioni di ciascun calciatore. Per esempio accedendo a `cognomi[0]`, `squadre[0]` e `valori_mecato[0]` si ottengono le informazioni sul primo calciatore.
+
+Il programma a menu deve permettere di effettaure le seguenti operazioni:
+0. Uscita e terminazione del programma
+1. **Inserimento**: viene richiesto all'utente un numero `n` di calciatori che desidera inserire. Dopo aver richiesto tutti i dati di ciascun calciatore il programma li inserisce nelle rispettive liste.
+2. **Filtra squadra**: viene richiesto all'utente il nome di una squadra. Se ci sono calciatori di tale squadra vengono stampati tutti i loro cognomi, altrimenti se non ci sono giocatori per la squadra inserita viene stampato il messaggio *squadra inesistente*.
+3. **Soglia valori**: viene richiesta all'utente una soglia `s` (numero intero) e vengono stampati cognome e squadra di ogni giocatore il cui valore di mercato è superiore alla soglia. Forzare l'inserimento di una soglia minima pari a `500`.
+4. **Media squadra**: viene richiesto all'utente il nome di una squadra e se la squadra esiste allora viene calcolata e stampata la media dei valori di mercato dei giocatori di tale squadra. Se la squadra non esiste allora viene stampato il messaggio *squadra inesistente*.
+
 ### DOS-attack-defender.py
 
 Un indirizzo IP è una serie di 4 (da 0 a 254) numeri separati da un punto che identifica ciascun dispositivo connesso ad una rete.
@@ -180,3 +193,13 @@ Il programma si comporta come di seguito descritto:
 3. Se l'indirizzo IP non fa parte della blacklist il programma stampa il messaggio `Fornita risposta ad indirizzo IP: ...`
 
 Tali operazioni vengono ripetute 60 volte (ossia vengono effettuate 60 richieste). Al termine il programma stampa la lista senders e la blacklist.
+
+## Esercizi strutturati
+
+### smartwatch.py
+
+Si veda il testo dell'esercizio al file [smartwatch.md](./smartwatch.md)
+
+### space-station.py
+
+Si veda il testo dell'esercizio al file [space-station.md](./space-station.md)

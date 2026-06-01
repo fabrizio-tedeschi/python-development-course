@@ -1,4 +1,3 @@
-# Input dei valori e inserimento nella lista
 n = int(input("Quanti valori vuoi inserire nella lista? "))
 
 l = []
@@ -6,13 +5,14 @@ for i in range(n):
     x = int(input("inserisci numero: "))
     l.append(x)
 
-# Ordinamento della lista
 l.sort()
+l.reverse()
 
-# Per ogni elemento della lista
+no_doppi = []
 for e in l:
-    # Fino a quando ci sono duplicati
-    while l.count(e) > 1:
-        l.remove(e)
+    if no_doppi.count(e) == 0:
+        no_doppi.append(e)
 
-print("Lista ordinata e senza duplicati:", l)
+
+print("Lista ordinata iniziale:", l)
+print("Lista ordinata e senza duplicati:", no_doppi)
