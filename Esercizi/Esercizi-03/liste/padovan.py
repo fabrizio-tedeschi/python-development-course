@@ -6,12 +6,10 @@ while n < 0:
 successione = []
 
 for i in range(n):
-    if i == 0:
-        num = 0
-    elif i == 1:
+    if i < 3:
         num = 1
     else:
-        num = successione[i-1] + successione[i-2]
+        num = successione[i-2] + successione[i-3]
     successione.append(num)
 
 print(successione)

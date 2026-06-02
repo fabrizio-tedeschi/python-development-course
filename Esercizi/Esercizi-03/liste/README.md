@@ -110,9 +110,19 @@ Task restanti:
 
 ### fibonacci.py
 
-La *successione di fibonacci* è una successione di numeri in cui il numero n-esimo `F(n)` viene definito come `F(n) = F(n-1) + F(n-2)` con la particolarità che `F(0) = 0` e `F(1) = 1`.
+La *successione di Fibonacci* è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-1) + F(j-2)` con la particolarità che `F(0) = 0` e `F(1) = 1`.
 
-Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di fibonacci fino al numero `n` e poi stampa la lista ottenuta.
+Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di fibonacci fino al numero `n`-esimo e poi stampa la lista ottenuta.
+
+Per esempio inserendo `n = 8` si ottiene `[0, 1, 1, 2, 3, 5, 8, 13]` ossia i primi 8 numeri della successione di Fibonacci.
+
+### padovan.py
+
+La *successione di Padovan* è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-2) + F(j-3)` con la particolarità che `F(0) = 1`, `F(1) = 1` e `F(2) = 1`.
+
+Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di fibonacci fino al numero `n`-esimo e poi stampa la lista ottenuta.
+
+Per esempio inserendo `n = 10` si ottiene `[1, 1, 1, 2, 2, 3, 4, 5, 7, 9]` ossia i primi 10 numeri della successione di Fibonacci.
 
 ## Liste parallele
 
