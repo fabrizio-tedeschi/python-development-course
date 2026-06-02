@@ -108,6 +108,12 @@ Task restanti:
 - calcio
 ```
 
+### fibonacci.py
+
+La *successione di fibonacci* è una successione di numeri in cui il numero n-esimo `F(n)` viene definito come `F(n) = F(n-1) + F(n-2)` con la particolarità che `F(0) = 0` e `F(1) = 1`.
+
+Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di fibonacci fino al numero `n` e poi stampa la lista ottenuta.
+
 ## Liste parallele
 
 ### lista-spesa.py
@@ -128,6 +134,27 @@ Lista della spesa finale:
 - Biscotti 10
 - Zucchero 1
 ```
+
+### consumi.py
+
+L'impianto solare di una casa produce energia (misurata in KW) durante le 12 ore di sole di una giornata estiva. Nel contempo la casa consuma energia per via degli elettrodomestici attivi.
+
+Creare e inizializzare le seguenti liste:
+* `produzione`: energia prodotta (in KW) per ogni ora. Valori random fra 0 e 15
+* `consumi`: consumi della casa (in KW) per ogni ora. Valori random fra 2 e 10.
+
+Per ciascuna ora stampare se la casa sta risparmiando energia, se la casa sta consumando energia, oppure se sta avendo impatto zero (produzione = consumo).
+
+### prezzi.py
+
+Scrivere un programma che chieda in input all'utente il numero `n` di prodotti che desidera inserire. Succesivamente il programma avvia l'inserimento di `n` prodotti (stringhe) chiedendoli in input all'utente e inserendoli in una lista. Forzare l'inserimento di stringhe non vuote.
+
+Il programma genera poi una lista parallela `prezzi` avente `n` elementi, ciascuno calcolato come numero random fra 20 e 300.
+
+Per ciascun prodotto stampare nome, prezzo e fascia di prezzo in base ai seguenti criteri:
+* Se il prezzo è inferiore a 50 la fascia è *bassa*
+* Se il prezzo è compreso fra 50 e 150 la fascia è *media*
+* Se il prezzo è superiore a 150 la fascia è *alta*
 
 ### registro.py
 
