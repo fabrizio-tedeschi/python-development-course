@@ -12,6 +12,12 @@ Scrivere una funzione `sommanumeri` che accetta un numero `n` e ritorna la somma
 
 Testare la funzione chiedendo in input il valore `n` all'utente, passarlo alla funzione e stampare il risultato.
 
+### serie-geometrica.py
+
+Un valore n-esimo della serie geometrica viene definito come `S(n) = 1 + q + q^2 + q^3 + ... + q^n`. Definire una funzione `serie_geometrica` che accetta i valori `n` e `q` e che calcola e restituisce il valore `S(n)`.
+
+Chiedere i valori `n` e `q` in input all'utente forzando l'inserimento di valori positivi.
+
 ### fattoriale.py
 
 In matematica il fattoriale di un numero `n` viene definito come `n! = n * (n-1) * (n-2) ...`. Il fattoriale di 5 per
@@ -65,6 +71,24 @@ Definire e testare una funzione che data una lista `l` di numeri interi e un num
 ### filtra-nomi.py
 
 Definire una funzione che data una lista `l` di nomi (stringhe) e un carattere `ch` ritorna una nuova lista contenente solo i nomi che iniziano con la lettera `ch`.
+
+### tribonacci.py
+
+La *successione di Tribonacci* è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-1) + F(j-2) + F(j-3)` con la particolarità che `F(0) = 0`, `F(1) = 0` e `F(2) = 1`.
+
+Scrivere una funzione che accetta un numero intero positivo `n`. La funzione calcola e inserisce in una lista tutti i numeri della successione di Tribonacci fino al numero `n`-esimo e poi ritorna la lista ottenuta.
+
+Per esempio inserendo `n = 8` si ottiene `[0, 0, 1, 1, 2, 4, 7, 13]` ossia i primi 8 numeri della successione di Tribonacci.
+
+### syracuse.py
+
+La *successione di Syracuse* è una sequenza di numeri ottenuto a partire da un certo valore `x` positivo che viene modificato come segue fino a quando diventa pari a 1:
+* Se `x` è pari allora esso viene dimezzato usando la divisione intera `x//2`
+* Se `x` è dispari allora esso diventa `5*x + 1`
+
+Scrivere una funzione `syracuse(x)` che accetta un numero `x` e restituisce una lista che contiene tutte le sue trasformazioni fino ad arrivare al valore 1. Se le trasformazioni effettuate sono più di 20 interrompere anticipatamente il calcolo e ritornare la lista.
+
+Nella parte principale del programma generare una lista di 5 numeri random compresi fra 10 e 30 e, per ciascuno di essi, stampare la successione di Syracuse corrispondente restituita dalla funzione.
 
 ### filtra-parole.py
 
