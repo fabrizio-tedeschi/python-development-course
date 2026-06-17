@@ -167,7 +167,3 @@ def main():
 # Inizio del programma chiamando la funzione principale
 main()
 ```
-
-## Programmi a menu
-
-> TODO

@@ -33,9 +33,9 @@ istruzioni successive
 >[!TIP]
 >In ogni caso l'indentazione è una pratica che rende il codice più leggibile, pertanto è sempre caldamente consigliato indentare correttamente il proprio codice, indipendentemente dal linguaggio di programmazione!
 
-## Struttura di selezione - if
+## Struttura di selezione - if/elif/else
 
-La struttura di selezione `if` accetta una certa condizione ed esegue le istruzioni specificate "al suo interno" solamente se la condizione specificata risulta vera.
+La struttura di selezione `if/elif/else` accetta una certa condizione ed esegue le istruzioni specificate "al suo interno" solamente se la condizione specificata risulta vera.
 
 ```python
 if condizione:
@@ -71,7 +71,7 @@ else:
 	print("Il valore di x è compreso fra 10 e 20")
 ```
 
-## Match case
+## Struttura match case
 
 Il **match case** è una struttura di controllo che permette di implementare il matching su una specifica variabile. La struttura è definita come segue:
 
@@ -92,6 +92,8 @@ match status:
 Nel caso in esame viene valutato il contenuto della variabile `status` e stampato il messaggio corrispondente a tale valore.
 
 Si noti che non essendo possibile definire tutti i casi possibili vi è l'opportunità di usare il caso `_` per stampare un certo messaggio qualora venga inserito un codice diverso da tutti quelli specificati in precedenza.
+
+Il comportamento finale è analogo alla struttura di selezione classica `if/elif/else`.
 
 ## Strutture di ripetizione - cicli
 
@@ -130,45 +132,6 @@ for i in range(1, 10):
 >[!TIP]
 >Nella semantica del linguaggio python quando si esprimono gli estremi di un intervallo si considerano sempre i valori iniziali e finali secondo la seguente logica: **primo incluso, ultimo escluso**.
 
-### PROBLEMA: implementazione del ciclo do-while
-
-In python NON esiste un costrutto per implementare direttamente un ciclo do-while. Consideriamo quindi le informazioni in nostro possesso:
-
-* Un ciclo do-while esegue le istruzioni in esso contenute ALMENO una volta
-* Un ciclo while "standard" viene eseguito fino a quando la condizione risulta `True`
-* La parola chiave `break` permette di interrompere un ciclo
-* Si possono nidificare strutture di selezione e ripetizione
-
-Vengono di seguito riportate due possibili implementazione del ciclo do-while
-
-```python
-# Impostazione di una variabile di controllo
-flag = True
-
-# Implementazione del ciclo
-while flag:
-    print("Sono nel ciclo")
-    flag = False
-print("Sono uscito dal ciclo")
-```
-
-```python
-# Dichiarazione variabile con valore da incrementare
-i = 0
-
-# Implementazione del ciclo do-while
-while True:
-    print("Sono nel ciclo")
-    if(i > 3):
-        break
-    else:
-        i += 1
-print("Sono uscito dal ciclo")
-```
-
->[!WARNING]
->Quando si implementa un ciclo while con condizione `True` o con una variabile di controllo bisogna sempre ricordarsi di aggiornare la variabile di controllo oppure inserire la parola chiave `break` all'interno del ciclo per evitare di cadere all'interno di un **loop infinito**!
-
 ## La parola chiave `else` al termine dei cicli
 
 L'aggiunta di della parola chiave `else` al termine di un ciclo iterativo permette di eseguire un certo blocco di istruzioni solamente se il ciclo viene completato in maniera naturale.
@@ -178,9 +141,9 @@ while condizione:
     # Istruzioni del ciclo
 else:
     # Istruzioni da eseguire solo se il ciclo non viene interrotto
+```
 
-#---------------------------------------------------------------------------#
-
+```python
 for var in oggetto_iterabile:
     # Istruzioni del ciclo
 else:
@@ -190,4 +153,51 @@ else:
 ![cicli-else](./images/cicli-else.jpg)
 
 >[!TIP]
-> Se viene eseguita una istruzione `break` all'interno del ciclo, questo termina in modo forzato ed il blocco `else` NON viene eseguito!
+> Se viene eseguita una istruzione `break` all'interno del ciclo, questo termina in modo forzato ed il blocco `else` **NON** viene eseguito!
+
+## Programmi a menu
+
+Un **programma a menu** è un programma che esegue continuamente senza mai terminare, restando in attesa di un comando da parte dell'utente. In base al comando inserito il programma può eseguire istruzioni oppure terminare.
+
+Per implementare i programmi a menu si utilizzano le seguenti componenti:
+* Una variabile `comando` che contiene il comando inserito dall'utente
+* Un ciclo `while` che verifica l'eventuale condizione di uscita
+* Un `if...elif` oppure un `match case` per eseguire istruzioni in base al comando inserito
+
+Il codice seguente mostra un esempio di programma a menu:
+
+```python
+
+# Stampe per informare l'utente sui comandi disponibili
+print("Comandi:")
+print("0) Uscita")
+print("1) Primo comando")
+print("2) Secondo comando")
+
+# Primo input del comando
+comando = int(input("Inserire un comando: "))
+
+# Fino a quando non devo uscire... (esco quando comando == 0)
+while comando != 0:
+
+    # Controlli sul comando
+    if comando == 1:
+        # [Codice del comando 1]
+        print("Eseguito comando 1")
+    elif comando == 2:
+        # [Codice del comando 2]
+        print("Eseguito comando 2")
+    else:
+        print("Comando sconosciuto")
+    
+    # Stampe per informare l'utente sui comandi disponibili
+    print("Comandi:")
+    print("\t0) Uscita")
+    print("\t1) Primo comando")
+    print("\t2) Secondo comando")
+
+    # Primo input del comando
+    comando = int(input("Inserire un comando: "))
+
+print("Fine programma")
+```

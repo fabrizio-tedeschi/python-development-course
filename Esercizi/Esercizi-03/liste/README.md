@@ -204,11 +204,12 @@ Scrivere un programma a menu che simula un gestore di giocatori di calcio utiliz
 Le liste contengono nella stessa posizione le informazioni di ciascun calciatore. Per esempio accedendo a `cognomi[0]`, `squadre[0]` e `valori_mecato[0]` si ottengono le informazioni sul primo calciatore.
 
 Il programma a menu deve permettere di effettaure le seguenti operazioni:
-0. Uscita e terminazione del programma
+
 1. **Inserimento**: viene richiesto all'utente un numero `n` di calciatori che desidera inserire. Dopo aver richiesto tutti i dati di ciascun calciatore il programma li inserisce nelle rispettive liste.
 2. **Filtra squadra**: viene richiesto all'utente il nome di una squadra. Se ci sono calciatori di tale squadra vengono stampati tutti i loro cognomi, altrimenti se non ci sono giocatori per la squadra inserita viene stampato il messaggio *squadra inesistente*.
 3. **Soglia valori**: viene richiesta all'utente una soglia `s` (numero intero) e vengono stampati cognome e squadra di ogni giocatore il cui valore di mercato è superiore alla soglia. Forzare l'inserimento di una soglia minima pari a `500`.
 4. **Media squadra**: viene richiesto all'utente il nome di una squadra e se la squadra esiste allora viene calcolata e stampata la media dei valori di mercato dei giocatori di tale squadra. Se la squadra non esiste allora viene stampato il messaggio *squadra inesistente*.
+5. Uscita e terminazione del programma.
 
 ### DOS-attack-defender.py
 

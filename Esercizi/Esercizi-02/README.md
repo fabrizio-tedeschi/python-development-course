@@ -81,3 +81,18 @@ Forzare l'inserimento di entrambi `a` e `b` maggiori di 0.
 * Il programma calcola il resto `r` della divisione fra `a` e `b`
     * Se `r = 0` allora `b` è il MCD
     * Se `r != 0` allora `a` assume il valore di `b` e `b` assume il valore `r` e si ripetono le operazioni precedenti.
+
+### calcolatrice.py
+
+Scrivere un programa a menu che simuli il funzionamento di una calcolatrice. L'utente può inserire un comando fra le possibili operazioni (`+`, `-`, `*`, `/`). Successivamente il programma chiede due numeri `a` e `b` e stampa il risultato dell'operazione scelta usando come operandi i numeri forniti.
+
+Per terminare il programma l'utente può inserire l'operando `#`.
+
+### minigiochi.py
+
+Scrivere un programma a menu che permetta all'utente di effettuare a scelta tre diversi minigiochi come descritto di seguito.
+
+1. **Indovina x**: il programma che calcola randomicamente un numero `x` comrpeso fra 0 e 20. Successivamente, il programma valuta una serie di valori inseriti dall'utente e stampa il messaggio *troppo alto* o *troppo basso* per aiutare l'utente a indovinare il numero.
+2. **Gara tabelline**: il programma propone all'utente 5 diverse tabelline e, per ciascuna di esse valuta se il risultato è corretto o meno stampando un opportuno messaggio. Il programma stampa anche il totale delle tabelline svolte correttamente dall'utente.
+3. **Indovina x difficile**: il programma calcola randomicamente un numero `x` fra 1 e 30 e stampa tutti i valori di cui tale numero è multiplo. Il programma chiede all'utente di indovinare il valore di `x` e stampa un opportuno messaggio di vittoria o sconfitta.
+4. **Uscita**
