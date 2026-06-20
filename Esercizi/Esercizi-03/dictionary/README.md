@@ -36,6 +36,12 @@ Inserendo i dati dell'esempio precedente si ottiene:
 }
 ```
 
+### conta-caratteri.py
+
+Scrivere un programma che chiede in input all'utente una stringa e stampa il conteggio per ogni carattere presente nella stringa.
+
+**Suggerimento**: usare un dictionary dove ogni nuova letterà è una chiave e il corrispondente conteggio è il valore.
+
 ### inverti-dict.py
 
 Dato un dictionary `d` creare e stampare un nuovo dictionary `d1` che abbia chiavi e valori invertiti rispetto a quello di origine. Per esempio:

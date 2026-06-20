@@ -18,7 +18,7 @@ Scrivere un progrmma che esegua le seguenti operazioni:
 * Crei una nuova lista contenente solo i numeri pari
 * Stampi la lista dei numeri pari e la sua lunghezza
 
-### rimuovi-duplicati
+### rimuovi-duplicati.py
 
 Scrivere un programma che chiede in input all'utente un valore `n` e successivamente chiede all'utente `n` numeri interi e li inserisce in una lista. Ordinare la lista in ordine decrescente.
 

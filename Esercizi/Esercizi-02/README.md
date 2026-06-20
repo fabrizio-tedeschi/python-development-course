@@ -109,7 +109,7 @@ Scrivere un programma che chiede all'utente una serie di numeri interi (>= 0). P
 Il programma deve stampare la sequenza dei numeri inseriti dall'utente sotto-forma di stringa.
 Per esempio se l'utente inserisce 1, 5, 8, 22, 6, -5 allora il programma stamperà "158226".
 
-### indovina-numero.py
+### indovina-x.py
 
 Scrivere un programma che calcola randomicamente un numero `x` comrpeso fra 0 e 20. Successivamente, il programma valuta una serie di valori inseriti dall'utente e stampa il messaggio *troppo alto* o *troppo basso* per aiutare l'utente a indovinare il numero. Il programma si ferma quando l'utente indovina il numero `x`.
 
