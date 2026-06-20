@@ -137,7 +137,38 @@ Forzare l'inserimento di entrambi `a` e `b` maggiori di 0.
 
 ### divisori.py
 
-## programmi articolati
+Chiedere in input all'utente un numero `n` forzando l'inserimento di un numero non negativo e stampare tutti i suoi divisori. Per definizione un numero `d` è divisore di `n` se `n/d` fornisce resto zero.
+
+### tabellina.py
+
+Chiedere in input all'utente un numero `n` forzando l'inserimento di un numero non negativo e stampare la sua tabellina. Per esempio:
+
+```
+3 x 0 = 0
+3 x 1 = 3
+...
+3 x 10 = 30
+```
+
+### somma-range.py
+
+Scrivere un programma che chiede all'utente due numeri interi `a` e `b` (con `a` minore di `b`) e calcola la somma di tutti i numeri interi compresi `a` e `b` (estremi inclusi).
+
+### albero.py
+
+Chiedere in input all'utente un numero `n` forzando l'inserimento di un numero non negativo e stampare un albero di caratteri `*` la cui base contiene un numero di `*` pari ad `n`.
+
+Per esempio inserendo `n = 5` si ottiene:
+
+```
+*
+**
+***
+****
+*****
+```
+
+## Programmi a menu
 
 ### calcolatrice.py
 
