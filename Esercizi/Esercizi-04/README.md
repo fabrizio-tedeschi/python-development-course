@@ -12,7 +12,7 @@ Scrivere una funzione `somma_numeri` che accetta un numero `n` e ritorna la somm
 
 Testare la funzione chiedendo in input il valore `n` all'utente, passarlo alla funzione e stampare il risultato.
 
-## perfetto.py
+### perfetto.py
 
 Un numero è perfetto se è uguale alla somma dei suoi divisori escluso il numero stesso. Creare una funzione `is_perfect()` che dato un numero `x` ritorna `True` se il numero è perfetto, `False` altrimenti.
 
