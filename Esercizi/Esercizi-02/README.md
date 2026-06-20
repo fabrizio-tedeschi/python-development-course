@@ -1,6 +1,6 @@
 # Esercizi 02 - Strutture di selezione e ripetizione
 
-## Strutture di selezione if/elif/else
+## Strutture di selezione
 
 ### maggiorenne.py
 
@@ -26,6 +26,8 @@ Scrivere un programma che si occupa di calcolare il costo di un abbonamento di u
 * Se l'abbonamento supera i 4 mesi si ha diritto a uno sconto del 30% sul totale, se supera gli 8 mesi si ha diritto a uno sconto del 40% sul totale.
 * Gli sconti dovuti all'età e al numero di mesi sono cumulabili.
 
+Ogni volta che il programma applica uno sconto o un supplemento stampa un opportuno messaggio.
+
 Chiedere in input all'utente l'età e il numero di mesi per i quali desidera effettuare l'abbonamento e stampare il costo dell'abbonamento.
 
 ### noleggio-bici.py
@@ -42,6 +44,34 @@ Scrivere un programma che calcola il costo del noleggio di una bicicletta in bas
 Ogni volta che il programma applica uno sconto o un supplemento stampa un opportuno messaggio.
 
 Chiedere in input all'utente: se la bici è elettrica, se chi la noleggia è studente e il numero di ore di noleggio, quindi stampare il costo finale.
+
+### mensa.py
+
+Scrivere un programma che simula l'ordinazione di piatti in una mensa, utilizzando il costrutto `match case` per gestire la scelta del piatto.
+
+L'utente indica in input:
+* Il numero del piatto che desidera ordinare
+* La quantità di pezzi
+* Se desidera il servizio al tavolo
+
+Il menu a disposizione è il seguente:
+
+  | Numero | Piatto              | Prezzo |
+  |--------|---------------------|--------|
+  | 1      | Pizza margherita    | 6€     |
+  | 2      | Pasta al pomodoro   | 7€     |
+  | 3      | Insalata mista      | 5€     |
+  | 4      | Hamburger           | 9€     |
+  | 5      | Tiramisù            | 4€     |
+
+Se l'utente inserisce un numero non presente nel menu (diverso da 1-5), il programma deve stampare il messaggio di errore *Piatto non disponibile: ordinerai una pizza* e applicare il costo della pizza.
+
+Per calcolare il costo dell'ordine:
+1. Si moltiplica il costo del piatto per il numero di pezzi
+2. Se l'utente ha scelto il servizio al tavolo si aggiunge un supplemento di 2€ a persona dopo aver chiesto il numero di persone all'utente.
+3. Se la quantità totale di piatti ordinati supera le 4 unità si ha diritto a uno sconto del 10% sul totale; se supera le 8 unità lo sconto sale al 20%.
+
+Stampare il totale dell'ordine.
 
 ## Ciclo while
 
