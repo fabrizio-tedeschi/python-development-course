@@ -2,13 +2,19 @@
 
 ## Strutture di selezione if/elif/else
 
-### segno.py
-
-Scrivere un programma che chiede in input all'utente un numero e verifica se tale numero è positivo, negativo oppure zero. Il programma stampa un opportuno messaggio su terminale.
-
 ### maggiorenne.py
 
 Scrivere un programma che accetta in input nome, cognome e anni di una persona. Il programma stampa su output i dati della persona e se è maggiorenne o meno.
+
+### calcola-anni.py
+
+Scrivere un programma che chiede in input all'utente l'anno in cui è nato e un anno futuro. Il programma calcola e stampa quanti anni avrà l'utente nell'anno inserito.
+
+Se l'anno inserito dall'utente è precedente all'anno di nascita allora il programma stampa un messaggio di errore dato che una persona non può avere un numero negativo di anni.
+
+### segno.py
+
+Scrivere un programma che chiede in input all'utente un numero e verifica se tale numero è positivo, negativo oppure zero. Il programma stampa un opportuno messaggio su terminale.
 
 ### abbonamento-palestra.py
 
@@ -21,6 +27,21 @@ Scrivere un programma che si occupa di calcolare il costo di un abbonamento di u
 * Gli sconti dovuti all'età e al numero di mesi sono cumulabili.
 
 Chiedere in input all'utente l'età e il numero di mesi per i quali desidera effettuare l'abbonamento e stampare il costo dell'abbonamento.
+
+### noleggio-bici.py
+
+Scrivere un programma che calcola il costo del noleggio di una bicicletta in base ai seguenti criteri:
+
+* Il noleggio ha un costo base di 5€ all'ora
+* Per ogni ora di noleggio viene aggiunto un supplemento di 2,5€
+* Se la bici è elettrica (l'utente risponde si/no), si aggiunge un supplemento fisso di 8€
+* Gli studenti (l'utente risponde si/no) hanno uno sconto del 15% sul prezzo complessivo
+* Se il noleggio supera le 3 ore si ha diritto a uno sconto del 10% sul totale, se supera le 6 ore lo sconto sale al 25%
+* Gli sconti per studenti e per durata sono cumulabili
+
+Ogni volta che il programma applica uno sconto o un supplemento stampa un opportuno messaggio.
+
+Chiedere in input all'utente: se la bici è elettrica, se chi la noleggia è studente e il numero di ore di noleggio, quindi stampare il costo finale.
 
 ## Ciclo while
 
@@ -81,6 +102,12 @@ Forzare l'inserimento di entrambi `a` e `b` maggiori di 0.
 * Il programma calcola il resto `r` della divisione fra `a` e `b`
     * Se `r = 0` allora `b` è il MCD
     * Se `r != 0` allora `a` assume il valore di `b` e `b` assume il valore `r` e si ripetono le operazioni precedenti.
+
+## Ciclo for
+
+### divisori.py
+
+## programmi articolati
 
 ### calcolatrice.py
 
