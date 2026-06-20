@@ -62,11 +62,27 @@ In matematica le soluzioni di una quazione di secondo grado del tipo `ax^2 + bx 
 Definire una funzione `risolvi_equazione(a, b, c)` che accetta i parametri di una equazione di secondo grado e stampa su `output` le due possibili soluzioni.
 Effettuare tutti i controlli opportuni sui parametri forniti e sul valore di delta calcolato.
 
+### isprime.py
+
+Per definizione un numero `n` è **primo** se è divisibile solo per 1 e per sè stesso. Per verificare se un numero non è primo è sufficiente trovare un altro suo divisore oltre a 1 e a `n`.
+
+Definire una funzione `isprime(n)` che dato un numero `n` restituisce `True` se il numero è primo altrimenti restituisce `False`. Se il numero è negativo o nullo la funzione restituisce `False`.
+
 ## Funzioni e liste
 
 ### somma-multipli.py
 
 Definire e testare una funzione che data una lista `l` di numeri interi e un numero `n`, ritorna la somma dei soli multipli di `n`.
+
+### crivello.py
+
+Il **crivello di Eratostene** è un metodo che permette di trovare tutti i numeri primi compresi fra 2 e `k`.
+
+Si scriva una funzione `crivello(k)` che implementi il crivello di Eratostene come descritto di seguito.
+
+La funzione accetta un numero `k` e ritorna la lista di tutti e soli i numeri primi presenti fra 2 e `k`. A partire da una lista vuota la funzione opera come segue:
+* Per ciascun valore `i` compreso fra 2 e `k` si verifica se `i` è multiplo di uno fra i valori presenti nella lista e, nel caso, lo si scarta.
+* Se il valore `i` non è presente nella allroa esso è primo e lo si aggiunge alla lista.
 
 ### filtra-nomi.py
 
