@@ -45,8 +45,9 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 > [Materiali](./Lezioni/base/02-strutture-selezione-ripetizione.md) |
 > [Esercizi](./Esercizi/Esercizi-02/)
 
-* Strutture di selezione e controllo (if, elif, else)
+* Strutture di selezione e controllo (if, elif, else, match-case)
 * Strutture di ripetizione (while, for, do-while)
+* Programmi a menu
 
 ### [03] - *Strutture dati*
 
