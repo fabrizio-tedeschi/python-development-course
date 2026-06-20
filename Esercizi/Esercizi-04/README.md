@@ -8,9 +8,15 @@ Definire una funzione `area_triangolo(base, altezza)`. La funzione accetta base 
 
 ### somma-numeri.py
 
-Scrivere una funzione `sommanumeri` che accetta un numero `n` e ritorna la somma di tutti i numeri interi da `1` fino a `n`.
+Scrivere una funzione `somma_numeri` che accetta un numero `n` e ritorna la somma di tutti i numeri interi da `1` fino a `n`.
 
 Testare la funzione chiedendo in input il valore `n` all'utente, passarlo alla funzione e stampare il risultato.
+
+## perfetto.py
+
+Un numero è perfetto se è uguale alla somma dei suoi divisori escluso il numero stesso. Creare una funzione `is_perfect()` che dato un numero `x` ritorna `True` se il numero è perfetto, `False` altrimenti.
+
+Si verifichino anche i casi particolari `x = 0` e `x = 1`.
 
 ### serie-geometrica.py
 
@@ -62,11 +68,11 @@ In matematica le soluzioni di una quazione di secondo grado del tipo `ax^2 + bx 
 Definire una funzione `risolvi_equazione(a, b, c)` che accetta i parametri di una equazione di secondo grado e stampa su `output` le due possibili soluzioni.
 Effettuare tutti i controlli opportuni sui parametri forniti e sul valore di delta calcolato.
 
-### isprime.py
+### primo.py
 
 Per definizione un numero `n` è **primo** se è divisibile solo per 1 e per sè stesso. Per verificare se un numero non è primo è sufficiente trovare un altro suo divisore oltre a 1 e a `n`.
 
-Definire una funzione `isprime(n)` che dato un numero `n` restituisce `True` se il numero è primo altrimenti restituisce `False`. Se il numero è negativo o nullo la funzione restituisce `False`.
+Definire una funzione `is_prime(n)` che dato un numero `n` restituisce `True` se il numero è primo altrimenti restituisce `False`. Se il numero è negativo o nullo la funzione restituisce `False`.
 
 ## Funzioni e liste
 
