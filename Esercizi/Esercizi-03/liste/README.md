@@ -110,7 +110,7 @@ Task restanti:
 
 ### fibonacci.py
 
-La *successione di Fibonacci* è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-1) + F(j-2)` con la particolarità che `F(0) = 0` e `F(1) = 1`.
+La **successione di Fibonacci** è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-1) + F(j-2)` con la particolarità che `F(0) = 0` e `F(1) = 1`.
 
 Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di fibonacci fino al numero `n`-esimo e poi stampa la lista ottenuta.
 
@@ -118,7 +118,7 @@ Per esempio inserendo `n = 8` si ottiene `[0, 1, 1, 2, 3, 5, 8, 13]` ossia i pri
 
 ### padovan.py
 
-La *successione di Padovan* è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-2) + F(j-3)` con la particolarità che `F(0) = 1`, `F(1) = 1` e `F(2) = 1`.
+La **successione di Padovan** è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-2) + F(j-3)` con la particolarità che `F(0) = 1`, `F(1) = 1` e `F(2) = 1`.
 
 Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di fibonacci fino al numero `n`-esimo e poi stampa la lista ottenuta.
 

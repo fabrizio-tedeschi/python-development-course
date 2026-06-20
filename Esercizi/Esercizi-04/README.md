@@ -14,19 +14,19 @@ Testare la funzione chiedendo in input il valore `n` all'utente, passarlo alla f
 
 ### perfetto.py
 
-Un numero è perfetto se è uguale alla somma dei suoi divisori escluso il numero stesso. Creare una funzione `is_perfect()` che dato un numero `x` ritorna `True` se il numero è perfetto, `False` altrimenti.
+Un numero è **perfetto** se è uguale alla somma dei suoi divisori escluso il numero stesso. Creare una funzione `is_perfect()` che dato un numero `x` ritorna `True` se il numero è perfetto, `False` altrimenti.
 
 Si verifichino anche i casi particolari `x = 0` e `x = 1`.
 
 ### serie-geometrica.py
 
-Un valore n-esimo della serie geometrica viene definito come `S(n) = 1 + q + q^2 + q^3 + ... + q^n`. Definire una funzione `serie_geometrica` che accetta i valori `n` e `q` e che calcola e restituisce il valore `S(n)`.
+Un valore n-esimo della **serie geometrica** viene definito come `S(n) = 1 + q + q^2 + q^3 + ... + q^n`. Definire una funzione `serie_geometrica` che accetta i valori `n` e `q` e che calcola e restituisce il valore `S(n)`.
 
 Chiedere i valori `n` e `q` in input all'utente forzando l'inserimento di valori positivi.
 
 ### fattoriale.py
 
-In matematica il fattoriale di un numero `n` viene definito come `n! = n * (n-1) * (n-2) ...`. Il fattoriale di 5 per
+In matematica il **fattoriale** di un numero `n` viene definito come `n! = n * (n-1) * (n-2) ...`. Il fattoriale di 5 per
 esempio sarà `5! = 5 * 4 * 3 * 2 * 1`. Inoltre per definizione `0! = 1`.
 
 Definire una funzione `fattoriale(n)` che accetta un numero intero positivo `n` e ne calcola il fattoriale restituendolo
@@ -96,7 +96,7 @@ Definire una funzione che data una lista `l` di nomi (stringhe) e un carattere `
 
 ### tribonacci.py
 
-La *successione di Tribonacci* è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-1) + F(j-2) + F(j-3)` con la particolarità che `F(0) = 0`, `F(1) = 0` e `F(2) = 1`.
+La **successione di Tribonacci** è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-1) + F(j-2) + F(j-3)` con la particolarità che `F(0) = 0`, `F(1) = 0` e `F(2) = 1`.
 
 Scrivere una funzione che accetta un numero intero positivo `n`. La funzione calcola e inserisce in una lista tutti i numeri della successione di Tribonacci fino al numero `n`-esimo e poi ritorna la lista ottenuta.
 
@@ -104,7 +104,7 @@ Per esempio inserendo `n = 8` si ottiene `[0, 0, 1, 1, 2, 4, 7, 13]` ossia i pri
 
 ### syracuse.py
 
-La *successione di Syracuse* è una sequenza di numeri ottenuto a partire da un certo valore `x` positivo che viene modificato come segue fino a quando diventa pari a 1:
+La **successione di Syracuse** è una sequenza di numeri ottenuto a partire da un certo valore `x` positivo che viene modificato come segue fino a quando diventa pari a 1:
 * Se `x` è pari allora esso viene dimezzato usando la divisione intera `x//2`
 * Se `x` è dispari allora esso diventa `5*x + 1`
 
