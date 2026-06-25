@@ -154,6 +154,8 @@ Chiedere in input all'utente un numero `n` forzando l'inserimento di un numero n
 
 Scrivere un programma che chiede all'utente due numeri interi `a` e `b` (con `a` minore di `b`) e calcola la somma di tutti i numeri interi compresi `a` e `b` (estremi inclusi).
 
+Per avere `a < b` è possibile forzare l'inserimento dell'utente in modo che `a` sia minore di `b` oppure confrontare i due valori e scambiarli fra loro se necessario.
+
 ### albero.py
 
 Chiedere in input all'utente un numero `n` forzando l'inserimento di un numero non negativo e stampare un albero di caratteri `*` la cui base contiene un numero di `*` pari ad `n`.
