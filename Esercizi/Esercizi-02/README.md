@@ -68,7 +68,7 @@ Se l'utente inserisce un numero non presente nel menu (diverso da 1-5), il progr
 
 Per calcolare il costo dell'ordine:
 1. Si moltiplica il costo del piatto per il numero di pezzi
-2. Se l'utente ha scelto il servizio al tavolo si aggiunge un supplemento di 2€ a persona dopo aver chiesto il numero di persone all'utente.
+2. Se l'utente ha scelto il servizio al tavolo si aggiunge un supplemento di 2€ a pezzo dopo aver chiesto il numero di persone all'utente.
 3. Se la quantità totale di piatti ordinati supera le 4 unità si ha diritto a uno sconto del 10% sul totale; se supera le 8 unità lo sconto sale al 20%.
 
 Stampare il totale dell'ordine.
@@ -81,15 +81,15 @@ Scrivere un programma che accetta in input dall'utente una serie di numeri inter
 
 ### media.py
 
-Scrivere un programma che accetta in input dall'utente una serie di numeri interi fino a quando l'utente inserisce il valore 0. Prima di terminare il programma stampa su output la MEDIA di tutti i numeri passati dall'utente (escluso lo 0).
+Scrivere un programma che accetta in input dall'utente una serie di numeri interi fino a quando l'utente inserisce il valore 0. Prima di terminare il programma stampa su output la **media** di tutti i numeri passati dall'utente (escluso lo 0).
 
 ### max-serie.py
 
-Scrivere un programma che accetta in input una serie di numeri interi positivi fino a quando viene inserito il valore 0. Il programma, prima di terminare, stampa su output il valore massimo inserito.
+Scrivere un programma che accetta in input una serie di numeri interi positivi fino a quando viene inserito il valore 0. Il programma, prima di terminare, stampa su output il valore **massimo** inserito.
 
 ### min-serie.py
 
-Scrivere un programma che accetta in input una serie di numeri interi sia positivi che negativi fino a quando viene inserito il valore 0. Il programma, prima di terminare, stampa su output il valore massimo inserito.
+Scrivere un programma che accetta in input una serie di numeri interi sia positivi che negativi fino a quando viene inserito il valore 0. Il programma, prima di terminare, stampa su output il valore **minimo** inserito.
 
 ### pari-dispari.py
 
