@@ -34,7 +34,7 @@ Chiedere in input all'utente l'età e il numero di mesi per i quali desidera eff
 
 Scrivere un programma che calcola il costo del noleggio di una bicicletta in base ai seguenti criteri:
 
-* Il noleggio ha un costo base di 5€ all'ora
+* Il noleggio ha un costo base di 5€
 * Per ogni ora di noleggio viene aggiunto un supplemento di 2,5€
 * Se la bici è elettrica (l'utente risponde si/no), si aggiunge un supplemento fisso di 8€
 * Gli studenti (l'utente risponde si/no) hanno uno sconto del 15% sul prezzo complessivo
