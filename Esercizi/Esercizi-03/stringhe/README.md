@@ -18,7 +18,7 @@ Per esempio la frase *"oggi fa caldo"* diventa *"ofoggifi fafa cafaldofo"*.
 
 ### conta-parole.py
 
-Scrivere un programma che chiede in input all'utente una stringa. Il programma conta le parole presenti nella stringa e stampa il risultato.
+Scrivere un programma che chiede in input all'utente una frase. Il programma conta le parole presenti nella stringa e stampa il risultato.
 
 ### cifre-pari.py
 
