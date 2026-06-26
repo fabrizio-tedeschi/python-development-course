@@ -123,12 +123,12 @@ Scrivere un programma che simula un confronto prezzi: accetta in input i prezzi 
 
 ### mcd-euclide.py
 
-L'algoritmo di euclide permette di calcolare il MCD fra due numeri `a` e `b` (con `a < b`) come descritto di seguito.
+L'algoritmo di euclide permette di calcolare il MCD fra due numeri `a` e `b` (con `a > b`) come descritto di seguito.
 
 Forzare l'inserimento di entrambi `a` e `b` maggiori di 0.
 
 * Il programma chiede in input all'utente i numeri `a` e `b`.
-* Se per caso `a > b` allora `a` e `b` vengono scambiati.
+* Se per caso `a < b` allora `a` e `b` vengono scambiati.
 * Il programma calcola il resto `r` della divisione fra `a` e `b`
     * Se `r = 0` allora `b` è il MCD
     * Se `r != 0` allora `a` assume il valore di `b` e `b` assume il valore `r` e si ripetono le operazioni precedenti.
