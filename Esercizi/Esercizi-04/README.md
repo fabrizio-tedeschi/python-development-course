@@ -106,7 +106,7 @@ Per esempio inserendo `n = 8` si ottiene `[0, 0, 1, 1, 2, 4, 7, 13]` ossia i pri
 
 La **successione di Syracuse** è una sequenza di numeri ottenuto a partire da un certo valore `x` positivo che viene modificato come segue fino a quando diventa pari a 1:
 * Se `x` è pari allora esso viene dimezzato usando la divisione intera `x//2`
-* Se `x` è dispari allora esso diventa `5*x + 1`
+* Se `x` è dispari allora esso diventa `3*x + 1`
 
 Scrivere una funzione `syracuse(x)` che accetta un numero `x` e restituisce una lista che contiene tutte le sue trasformazioni fino ad arrivare al valore 1. Se le trasformazioni effettuate sono più di 20 interrompere anticipatamente il calcolo e ritornare la lista.
 

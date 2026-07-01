@@ -122,7 +122,7 @@ La **successione di Padovan** è una successione di numeri in cui il numero i-es
 
 Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di fibonacci fino al numero `n`-esimo e poi stampa la lista ottenuta.
 
-Per esempio inserendo `n = 10` si ottiene `[1, 1, 1, 2, 2, 3, 4, 5, 7, 9]` ossia i primi 10 numeri della successione di Fibonacci.
+Per esempio inserendo `n = 10` si ottiene `[1, 1, 1, 2, 2, 3, 4, 5, 7, 9]` ossia i primi 10 numeri della successione di Padovan.
 
 ## Liste parallele
 
