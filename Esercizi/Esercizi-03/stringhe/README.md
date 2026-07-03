@@ -36,5 +36,5 @@ Scrivere un programma che chiede in input una stringa (parola o frase) all'utent
 
 **Suggerimenti**:
 * Per verificare se la stringa è palindroma si può invertirla e verificare se è uguale all'originale.
-* Sfruttare la funzione `list()` e il metodo `list.join()`.
+* Sfruttare la funzione `list()` sulle stringhe e il metodo `.join()` delle stringhe.
 
