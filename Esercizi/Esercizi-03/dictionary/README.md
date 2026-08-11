@@ -63,6 +63,52 @@ d1 = {
 }
 ```
 
+### popolazione.py
+
+Chiedere in input all'utente una serie di nomi di città e la rispettiva popolazione. Costruire e stampare un dictionary le cui chiavi sono i nomi delle citta e i valori le rispettive popolazioni.
+
+Eseguire poi le seguenti operazioni:
+* Stampare il nome della città con popolazione più alta
+* Stampare il nome della città con popolazione più bassa
+* Stampare il valor medio di abitanti che popolano le città registrate
+
+### turisti.py
+
+Un hotel ha un programma che registra i dati delle camere vendute durante una stagione per fornire statistiche sulle vendite. Le camere possono essere di tre tipi: singole, doppie o superior.
+
+Chiedere in input all'utente i numeri di camere vendute durante la stagione per ogni tipo di camera e salvarli all'interno di un dictionary.
+
+Eseguire poi le seguenti operazioni:
+* Stampare le tipologie di camera che hanno avuto meno di 50 vendite durante l'intera stagione
+* Stampare la tipologia di camera più venduta durante la stagione
+* Stampare il numero totale di camere vendute durante la stagione indipendentemente dalla tipologia
+* Sapendo che il costo di una camera singola è 45€, di una doppia 90€ e di una superior 110€, stampare il guadagno totale accumulato dall'hotel durante la stagione.
+
+
+### biblioteca.py
+
+Una biblioteca vuole tenere traccia dei prestiti dei libri effettuati durante il mese. Chiedere in input all'utente una serie di titoli di libri e, per ciascuno, il numero di volte in cui è stato prestato durante il mese. Costruire un dictionary le cui chiavi sono i codici ISBN dei libri e i valori il numero di prestiti.
+
+Eseguire poi le seguenti operazioni:
+
+* Stampare l'elenco dei libri che non sono mai stati prestati (0 prestiti), se presenti
+* Stampare il numero totale di prestiti effettuati durante il mese
+* Sapendo che ogni prestito frutta alla biblioteca un contributo di 0,50€ (destinato all'acquisto di nuovi libri), stampare il totale raccolto durante il mese
+* Chiedere in input all'utente il titolo di un libro e stampare quante volte è stato prestato; se il titolo non è presente nel dictionary, stampare un messaggio di avviso
+
+### negozio.py
+
+Un negozio di elettronica gestisce il proprio magazzino tramite un programma che tiene traccia, per ogni prodotto, della quantità disponibile e del relativo prezzo unitario. Chiedere in input all'utente una serie di prodotti, e per ciascuno la quantità disponibile e il prezzo unitario, salvando i dati in un dictionary le cui chiavi sono i nomi dei prodotti e i valori sono a loro volta dictionary contenenti le chiavi `quantita` e `prezzo`.
+
+Eseguire poi le seguenti operazioni:
+
+* Stampare l'elenco dei prodotti sottoscorta, cioè con quantità disponibile inferiore a 5 unità
+* Stampare il valore complessivo dell'intero magazzino (somma dei valori di magazzino di tutti i prodotti)
+* Chiedere in input all'utente il nome di un prodotto e la quantità venduta; aggiornare di conseguenza il dictionary decrementando la quantità disponibile, gestendo il caso in cui la quantità richiesta superi quella disponibile (in tal caso stampare un messaggio di errore e non effettuare la vendita)
+* Stampare il nome del prodotto con il valore di magazzino più alto, calcolato come quantità moltiplicata per prezzo unitario
+
+Al termine, stampare il nuovo valore complessivo del magazzino aggiornato.
+
 ### nuotatori.py
 
 Chiedere in input un numero `k` all'utente e avviare una procedura che richiede l'inserimento dei dati di `k` nuotatori.
