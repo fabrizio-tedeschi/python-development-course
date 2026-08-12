@@ -87,14 +87,14 @@ Eseguire poi le seguenti operazioni:
 
 ### biblioteca.py
 
-Una biblioteca vuole tenere traccia dei prestiti dei libri effettuati durante il mese. Chiedere in input all'utente una serie di titoli di libri e, per ciascuno, il numero di volte in cui è stato prestato durante il mese. Costruire un dictionary le cui chiavi sono i codici ISBN dei libri e i valori il numero di prestiti.
+Una biblioteca vuole tenere traccia dei prestiti dei libri effettuati durante il mese. Chiedere in input all'utente una serie di codici ISBN di libri e, per ciascuno, il numero di volte in cui è stato prestato durante il mese. Costruire un dictionary le cui chiavi sono i codici ISBN dei libri e i valori il numero di prestiti.
 
 Eseguire poi le seguenti operazioni:
 
 * Stampare l'elenco dei libri che non sono mai stati prestati (0 prestiti), se presenti
 * Stampare il numero totale di prestiti effettuati durante il mese
-* Sapendo che ogni prestito frutta alla biblioteca un contributo di 0,50€ (destinato all'acquisto di nuovi libri), stampare il totale raccolto durante il mese
-* Chiedere in input all'utente il titolo di un libro e stampare quante volte è stato prestato; se il titolo non è presente nel dictionary, stampare un messaggio di avviso
+* Sapendo che ogni prestito frutta alla biblioteca un contributo di 0,50€, stampare il totale raccolto durante il mese
+* Chiedere in input all'utente il codice di un libro e stampare quante volte è stato prestato; se il titolo non è presente nel dictionary, stampare un messaggio di avviso
 
 ### negozio.py
 
