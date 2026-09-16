@@ -56,18 +56,6 @@ Scrivere un programma che ordini:
 * La lista di stringhe `l1` in ordine alfabetico dalla A alla Z (ordine crescente).
 * Il programma ordina la lista `l2` in ordine numerico decrescente.
 
-### filtra-parole.py
-
-Si inizializzi la seguente lista:
-
-```python
-parole = ["alfabeto", "insuperabile", "", "infinito", "icaro"]
-```
-
-Si scriva un programma che crei e stampi una nuova lista contenente solamente le parole che iniziano con i caratteri `"in"`.
-
-**Suggerimento**: sfruttare le tecniche di slicing sulle stringhe.
-
 ### substring.py
 
 Si inizializzi la seguente lista:
@@ -123,6 +111,63 @@ La **successione di Padovan** è una successione di numeri in cui il numero i-es
 Scrivere un programma che chiede in input all'utente un numero intero positivo `n` (forzarne l'inserimento). Il programma calcola e inserisce in una lista tutti i numeri di Padovan fino al numero `n`-esimo e poi stampa la lista ottenuta.
 
 Per esempio inserendo `n = 10` si ottiene `[1, 1, 1, 2, 2, 3, 4, 5, 7, 9]` ossia i primi 10 numeri della successione di Padovan.
+
+## Funzioni e liste
+
+### somma-multipli.py
+
+Definire e testare una funzione che data una lista `l` di numeri interi e un numero `n`, ritorna la somma dei soli multipli di `n`.
+
+### crivello.py
+
+Il **crivello di Eratostene** è un metodo che permette di trovare tutti i numeri primi compresi fra 2 e `k`.
+
+Si scriva una funzione `crivello(k)` che implementi il crivello di Eratostene come descritto di seguito.
+
+La funzione accetta un numero `k` e ritorna la lista di tutti e soli i numeri primi presenti fra 2 e `k`. A partire da una lista vuota la funzione opera come segue:
+* Per ciascun valore `i` compreso fra 2 e `k` si verifica se `i` è multiplo di uno fra i valori presenti nella lista e, nel caso, lo si scarta.
+* Se il valore `i` non è presente nella allroa esso è primo e lo si aggiunge alla lista.
+
+### filtra-nomi.py
+
+Definire una funzione che data una lista `l` di nomi (stringhe) e un carattere `ch` ritorna una nuova lista contenente solo i nomi che iniziano con la lettera `ch`.
+
+### tribonacci.py
+
+La **successione di Tribonacci** è una successione di numeri in cui il numero i-esimo `F(j)` viene definito come `F(j) = F(j-1) + F(j-2) + F(j-3)` con la particolarità che `F(0) = 0`, `F(1) = 0` e `F(2) = 1`.
+
+Scrivere una funzione che accetta un numero intero positivo `n`. La funzione calcola e inserisce in una lista tutti i numeri della successione di Tribonacci fino al numero `n`-esimo e poi ritorna la lista ottenuta.
+
+Per esempio inserendo `n = 8` si ottiene `[0, 0, 1, 1, 2, 4, 7, 13]` ossia i primi 8 numeri della successione di Tribonacci.
+
+### filtra-parole.py
+
+Definire una funzione che data una lista `l` di parole (stringhe) e una stringa `s` ritorna una nuova lista contenente solo le parole che iniziano con la stringa `s`.
+
+### syracuse.py
+
+La **successione di Syracuse** è una sequenza di numeri ottenuto a partire da un certo valore `x` positivo che viene modificato come segue fino a quando diventa pari a 1:
+* Se `x` è pari allora esso viene dimezzato usando la divisione intera `x//2`
+* Se `x` è dispari allora esso diventa `3*x + 1`
+
+Scrivere una funzione `syracuse(x)` che accetta un numero `x` e restituisce una lista che contiene tutte le sue trasformazioni fino ad arrivare al valore 1. Se le trasformazioni effettuate sono più di 20 interrompere anticipatamente il calcolo e ritornare la lista.
+
+Nella parte principale del programma generare una lista di 5 numeri random compresi fra 10 e 30 e, per ciascuno di essi, stampare la successione di Syracuse corrispondente restituita dalla funzione.
+
+### rimuovi-occorrenze.py
+
+Definire una funzione `rimuovi_occorrenze(l, e)` che accetta una lista `l` e un elemento `e`. La funzione restituisce una nuova lista dalla quale sono state rimosse tutte le occorrenze di `e`.
+
+### intersezione.py
+
+Scrivere un programma e inizializzare le liste seguenti:
+
+```python
+l1 = [1, 2, 3, 4, 5, 6]
+l2 = [4, 5, 6, 7, 8, 9, 10]
+```
+
+Si definisca una funzione `intersezione` che accetta due liste `l1` e `l2` che restituisce una nuova lista `out` che contiene solamente gli elementi presenti sia in `l1` sia in `l2`. Perciò si otterrà `out = [4, 5, 6]`.
 
 ## Liste parallele
 

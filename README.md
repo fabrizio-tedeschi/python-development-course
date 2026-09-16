@@ -49,16 +49,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * Strutture di ripetizione (while, for, do-while)
 * Programmi a menu
 
-### [03] - *Strutture dati*
-
-> [Materiali](./Lezioni/base/03-strutture-dati.md) |
-> [Esercizi](./Esercizi/Esercizi-03/)
-
-* Liste, tuple e metodi associati
-* Dictionary e metodi associati
-* Set e metodi associati
-
-### [04] - *Funzioni*
+### [03] - *Funzioni*
 
 > [Materiali](./Lezioni/base/04-funzioni.md) |
 > [Esercizi](./Esercizi/Esercizi-04/)
@@ -67,6 +58,17 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * Dichiarazione e definizione di funzioni
 * Passaggio per copia e per riferimento
 * Valori di default dei parametri
+
+### [04] - *Strutture dati*
+
+> [Materiali](./Lezioni/base/03-strutture-dati.md) |
+> [Esercizi](./Esercizi/Esercizi-03/)
+
+* Liste, tuple e metodi associati
+* Dictionary e metodi associati
+* Set e metodi associati
+
+
 
 ### [05] - *File di testo e directory*
 

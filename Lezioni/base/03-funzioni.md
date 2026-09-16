@@ -73,40 +73,6 @@ saluta("Genoveffa")                 # Stampa: Buongiorno! Genoveffa
 > nuova = aggiungi_elemento(75, 2)          # ERRORE: il valore 75 non possiede il metodo .append()
 > ```
 
-## Passaggio per copia e per riferimento
-
-Quando una variabile viene passata come parametro di una funzione, il suo contenuto può essere passati:
-
-* Per **COPIA**: il contenuto della variabile viene copiato in una nuova variabile e successivamente usato dalla funzione;
-* Per **RIFERIMENTO**: viene conservato un riferimento al dato in memorie e questo viene modificato ovunque;
-
-Si consideri il seguente esempio:
-
-```python
-def aggiungi(x):
-    return x + 10                           # Ritorna: x + 10
-
-def aggiungi_elemento(lista, elemento):
-    lista.append(elemento)                  # Aggiunge l'elemento alla lista l
-    return lista                            # Ritorna un nuovo riferimento alla lista l
-
-var = 15
-l = [1, 2, 3]
-
-res = aggiungi(var)
-print(var)                                  # Stampa: 15
-print(res)                                  # Stampa: 25
-
-risultato = aggiungi_elemento(l, 4)
-risultato.append(5)
-
-print(l)                                    # Stampa: [1, 2, 3, 4, 5]
-print(risultato)                            # Stampa: [1, 2, 3, 4, 5]
-```
-
->[!TIP]
-> In python numeri e stringhe sono passati per copia, liste e dictionary sono passati per riferimento.
-
 ## Valori di default
 
 Talvolta una funzione necessita di un certo parametro per svolgere il proprio compito ma non sempre è possibile passarlo.
@@ -167,3 +133,37 @@ def main():
 # Inizio del programma chiamando la funzione principale
 main()
 ```
+
+## Passaggio per copia e per riferimento
+
+Quando una variabile viene passata come parametro di una funzione, il suo contenuto può essere passati:
+
+* Per **COPIA**: il contenuto della variabile viene copiato in una nuova variabile e successivamente usato dalla funzione;
+* Per **RIFERIMENTO**: viene conservato un riferimento al dato in memorie e questo viene modificato ovunque;
+
+Si consideri il seguente esempio:
+
+```python
+def aggiungi(x):
+    return x + 10                           # Ritorna: x + 10
+
+def aggiungi_elemento(lista, elemento):
+    lista.append(elemento)                  # Aggiunge l'elemento alla lista l
+    return lista                            # Ritorna un nuovo riferimento alla lista l
+
+var = 15
+l = [1, 2, 3]
+
+res = aggiungi(var)
+print(var)                                  # Stampa: 15
+print(res)                                  # Stampa: 25
+
+risultato = aggiungi_elemento(l, 4)
+risultato.append(5)
+
+print(l)                                    # Stampa: [1, 2, 3, 4, 5]
+print(risultato)                            # Stampa: [1, 2, 3, 4, 5]
+```
+
+>[!TIP]
+> In python numeri e stringhe sono passati per copia, liste e dictionary sono passati per riferimento.

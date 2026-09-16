@@ -63,6 +63,24 @@ d1 = {
 }
 ```
 
+### dati-maggiorenni.py
+
+Definire una funzione `dati_maggiorenni(lista)`. La funzione accetta una lista di dictionary contenenti i dati di alcune persone.
+Il compito della funzione è quello di restituire una nuova lista che contenga solamente i dati delle persone maggiorenni.
+
+Si utilizzi la lista di persone fornita di seguito per effettuare i test necessari.
+
+```python
+persone = [
+    {"Nome": "Mario", "Cognome": "Rossi", "Anni": 15, "Altezza": 175},
+    {"Nome": "Luigi", "Cognome": "Verdi", "Anni": 23, "Altezza": 168},
+    {"Nome": "Anna", "Cognome": "Bianchi", "Anni": 56, "Altezza": 181},
+    {"Nome": "Luisa", "Cognome": "Rinaldi", "Anni": 16, "Altezza": 157},
+    {"Nome": "Stefano", "Cognome": "Baruzzi", "Anni": 12, "Altezza": 178},
+    {"Nome": "Maria", "Cognome": "Callas", "Anni": 35, "Altezza": 190}        
+]
+```
+
 ### popolazione.py
 
 Chiedere in input all'utente una serie di nomi di città e la rispettiva popolazione. Costruire e stampare un dictionary le cui chiavi sono i nomi delle citta e i valori le rispettive popolazioni.

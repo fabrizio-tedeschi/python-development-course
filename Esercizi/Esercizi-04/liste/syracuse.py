@@ -1,6 +1,6 @@
 import random
 
-def colltaz(x):
+def syracuse(x):
     out = []
 
     if x <= 0:
@@ -22,5 +22,5 @@ for i in range(5):
     numeri.append(n)
 
 for n in numeri:
-    successione = colltaz(n)
+    successione = syracuse(n)
     print(n, "-->", successione)
