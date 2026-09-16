@@ -51,8 +51,8 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [03] - *Funzioni*
 
-> [Materiali](./Lezioni/base/04-funzioni.md) |
-> [Esercizi](./Esercizi/Esercizi-04/)
+> [Materiali](./Lezioni/base/03-funzioni.md) |
+> [Esercizi](./Esercizi/Esercizi-03/)
 
 * Il concetto di "funzione"
 * Dichiarazione e definizione di funzioni
@@ -61,8 +61,8 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [04] - *Strutture dati*
 
-> [Materiali](./Lezioni/base/03-strutture-dati.md) |
-> [Esercizi](./Esercizi/Esercizi-03/)
+> [Materiali](./Lezioni/base/04-strutture-dati.md) |
+> [Esercizi](./Esercizi/Esercizi-04/)
 
 * Liste, tuple e metodi associati
 * Dictionary e metodi associati

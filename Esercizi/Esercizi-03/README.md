@@ -1,4 +1,4 @@
-# Esercizi 04 - Funzioni
+# Esercizi 03 - Funzioni
 
 > Svolgere i seguenti esercizi definendo le funzioni richieste e svolgendo opportuni test di funzionamento.
 

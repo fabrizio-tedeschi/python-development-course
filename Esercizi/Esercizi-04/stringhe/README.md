@@ -1,4 +1,4 @@
-# Esercizi 03 - Stringhe
+# Esercizi 04 - Stringhe
 
 ### inversione.py
 
