@@ -5,4 +5,6 @@ for i in range(len(s)):
     ch = s[(-i-1)]
     r += ch
 
+# Oppure r = s[::-1]
+
 print(r)
