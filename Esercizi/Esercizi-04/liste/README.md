@@ -169,6 +169,18 @@ l2 = [4, 5, 6, 7, 8, 9, 10]
 
 Si definisca una funzione `intersezione` che accetta due liste `l1` e `l2` che restituisce una nuova lista `out` che contiene solamente gli elementi presenti sia in `l1` sia in `l2`. Perciò si otterrà `out = [4, 5, 6]`.
 
+### solo-positivi.py
+ 
+Definire una funzione `solo_positivi(l)` che accetta una lista di numeri e restituisce una **nuova lista** contenente solo i numeri strettamente positivi, mantenendo l'ordine originale. La lista di partenza non deve essere modificata.
+ 
+Per esempio `solo_positivi([3, -1, 0, 8, -5])` restituisce `[3, 8]`.
+ 
+### posizioni.py
+ 
+Definire una funzione `posizioni(l, e)` che restituisce la lista di **tutti gli indici** in cui l'elemento `e` compare nella lista `l`. Se `e` non è presente restituisce una lista vuota.
+ 
+Per esempio `posizioni([4, 7, 4, 1, 4], 4)` restituisce `[0, 2, 4]`.
+
 ## Liste parallele
 
 ### lista-spesa.py

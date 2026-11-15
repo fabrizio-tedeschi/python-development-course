@@ -63,24 +63,6 @@ d1 = {
 }
 ```
 
-### dati-maggiorenni.py
-
-Definire una funzione `dati_maggiorenni(lista)`. La funzione accetta una lista di dictionary contenenti i dati di alcune persone.
-Il compito della funzione è quello di restituire una nuova lista che contenga solamente i dati delle persone maggiorenni.
-
-Si utilizzi la lista di persone fornita di seguito per effettuare i test necessari.
-
-```python
-persone = [
-    {"Nome": "Mario", "Cognome": "Rossi", "Anni": 15, "Altezza": 175},
-    {"Nome": "Luigi", "Cognome": "Verdi", "Anni": 23, "Altezza": 168},
-    {"Nome": "Anna", "Cognome": "Bianchi", "Anni": 56, "Altezza": 181},
-    {"Nome": "Luisa", "Cognome": "Rinaldi", "Anni": 16, "Altezza": 157},
-    {"Nome": "Stefano", "Cognome": "Baruzzi", "Anni": 12, "Altezza": 178},
-    {"Nome": "Maria", "Cognome": "Callas", "Anni": 35, "Altezza": 190}        
-]
-```
-
 ### popolazione.py
 
 Chiedere in input all'utente una serie di nomi di città e la rispettiva popolazione. Costruire e stampare un dictionary le cui chiavi sono i nomi delle citta e i valori le rispettive popolazioni.
@@ -184,40 +166,29 @@ Si scriva un programma che crei un dictionary che contenga tutti i diversi prodo
 }
 ```
 
-### ordini.py
+### rubrica.py
+ 
+Definire le seguenti funzioni che operano su un dictionary `rubrica` con chiavi i nomi (stringhe) e valori i numeri di telefono (stringhe):
+ 
+* `aggiungi(rubrica, nome, telefono)`: inserisce il contatto. Se il nome esiste già **non** lo sovrascrive e restituisce `False`, altrimenti restituisce `True`.
+* `cerca(rubrica, nome)`: restituisce il numero di telefono associato al nome, oppure `None` se il contatto non esiste.
+* `elimina(rubrica, nome)`: elimina il contatto e restituisce `True`; se il contatto non esiste restituisce `False`.
+Nel programma principale testare tutte le funzioni con almeno tre contatti.
 
-Data la seguente lista di ordini:
+### dati-maggiorenni.py
 
-```python
-ordini = [
-    {"id": 1, "cliente": "Marco", "spesa": 250, "pagato": True},
-    {"id": 2, "cliente": "Anna", "spesa": 120, "pagato": False},
-    {"id": 3, "cliente": "Marco", "spesa": 75, "pagato": True},
-    {"id": 4, "cliente": "Luca", "spesa": 310, "pagato": False},
-    {"id": 5, "cliente": "Anna", "spesa": 90, "pagato": True}
-]
-```
+Definire una funzione `dati_maggiorenni(lista)`. La funzione accetta una lista di dictionary contenenti i dati di alcune persone.
+Il compito della funzione è quello di restituire una nuova lista che contenga solamente i dati delle persone maggiorenni.
 
-Scrivere un programma che:
-1. Calcola e stampa il totale delle spese
-2. Crea un dictionary `spese` con i nomi di ogni cliente come chiavi e il totale della spesa per ciascun cliente come valori
-3. Crea una nuova lista `nonpagati` e ci inserisce solamente i dictionary degli ordini non pagati (ossia gli ordini che hanno `"pagato"==False`)
-
-Per il punto 2 si vuole ottenere un dictioanry come quello che segue:
+Si utilizzi la lista di persone fornita di seguito per effettuare i test necessari.
 
 ```python
-{
-    "Marco": 325,
-    "Anna": 210,
-    "Luca": 310
-}
-```
-
-Per il punto 3 si vuole ottenere una lista come quella che segue:
-
-```python
-nonpagati = [
-    {"id": 2, "cliente": "Anna", "spesa": 120, "pagato": False},
-    {"id": 4, "cliente": "Luca", "spesa": 310, "pagato": False},
+persone = [
+    {"Nome": "Mario", "Cognome": "Rossi", "Anni": 15, "Altezza": 175},
+    {"Nome": "Luigi", "Cognome": "Verdi", "Anni": 23, "Altezza": 168},
+    {"Nome": "Anna", "Cognome": "Bianchi", "Anni": 56, "Altezza": 181},
+    {"Nome": "Luisa", "Cognome": "Rinaldi", "Anni": 16, "Altezza": 157},
+    {"Nome": "Stefano", "Cognome": "Baruzzi", "Anni": 12, "Altezza": 178},
+    {"Nome": "Maria", "Cognome": "Callas", "Anni": 35, "Altezza": 190}        
 ]
 ```
