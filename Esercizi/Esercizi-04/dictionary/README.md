@@ -90,7 +90,7 @@ Eseguire poi le seguenti operazioni:
 * Stampare il nome della città con popolazione più bassa
 * Stampare il valor medio di abitanti che popolano le città registrate
 
-### turisti.py
+### camere.py
 
 Un hotel ha un programma che registra i dati delle camere vendute durante una stagione per fornire statistiche sulle vendite. Le camere possono essere di tre tipi: singole, doppie o superior.
 
@@ -125,7 +125,7 @@ Eseguire poi le seguenti operazioni:
 * Chiedere in input all'utente il nome di un prodotto e la quantità venduta; aggiornare di conseguenza il dictionary decrementando la quantità disponibile, gestendo il caso in cui la quantità richiesta superi quella disponibile (in tal caso stampare un messaggio di errore e non effettuare la vendita)
 * Stampare il nome del prodotto con il valore di magazzino più alto, calcolato come quantità moltiplicata per prezzo unitario
 
-Al termine, stampare il nuovo valore complessivo del magazzino aggiornato.
+Al termine, stampare il magazzino aggiornato.
 
 ### nuotatori.py
 
@@ -147,7 +147,7 @@ Testare il programma inserendo i seguenti dati:
 |Anna|Bianchi|Free|80|
 |Giulia|Monti|Free|100|
 
-### classifica-nuotatori.py
+### nuotatori-classifica.py
 
 Inizializzare una lista `nuotatori` con 4 dictionary contenenti i dati mostrati nella tabella dell'esercizio precedente.
 
