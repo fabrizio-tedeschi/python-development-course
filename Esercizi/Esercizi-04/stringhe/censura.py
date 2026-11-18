@@ -1,5 +1,6 @@
 frase = input("Inserisci frase: ")
 c = input("Parola da censurare: ")
 
-frase_censurata = frase.replace(c, "----")
+quanti = len(c)
+frase_censurata = frase.replace(c, ("-"*quanti))
 print("Frase censurata:", frase_censurata)
