@@ -71,13 +71,13 @@ Dominio: mail.it
  
 ### password.py
  
-Scrivere un programma che chiede in input all'utente una password (forzandone l'inserimento finché non è valida). Una password è valida solo se rispetta **tutti** i seguenti criteri:
+Scrivere un programma che chiede in input all'utente una password. Una password è valida solo se rispetta **tutti** i seguenti criteri:
 * è lunga almeno 8 caratteri;
 * contiene almeno una lettera maiuscola;
 * contiene almeno una lettera minuscola;
 * contiene almeno una cifra.
 
-Se la password non è valida il programma stampa quali criteri non sono stati rispettati. Quando la password è valida stampa `Password accettata`.
+Se la password non è valida il programma stampa `Password non valida`. Quando la password è valida stampa `Password accettata`.
 
 ### snake-to-camel.py
  
