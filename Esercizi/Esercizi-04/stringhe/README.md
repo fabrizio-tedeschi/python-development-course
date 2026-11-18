@@ -50,7 +50,7 @@ Per esempio inserendo *"domani vado al mare con Giulia"* si ottiene:
 Parola più lunga: domani (6 caratteri)
 ```
 
-### email.py
+### indirizzo-mail.py
  
 Scrivere un programma che chiede in input all'utente un indirizzo email e verifica se è formalmente valido secondo i seguenti criteri:
 * contiene esattamente un carattere `@`;

@@ -1,15 +1,17 @@
 s = input("Inserisci una stringa: ")
 
-compressa = ""
-precedente = s[0]
-count = 1
-for i in range(1, len(s)):
-    if s[i] == precedente:
-        count += 1
-    else:
-        compressa += precedente
-        compressa += str(count)
-        count = 1
-        precedente = i
-
-print(compressa)
+if s == "":
+    print("Stringa vuota...")
+else:
+    compressa = ""
+    precedente = s[0]
+    count = 1
+    for ch in s[1:]:
+        if ch == precedente:
+            count += 1
+        else:
+            compressa += precedente + str(count)
+            count = 1
+            precedente = ch
+    compressa += precedente + str(count)
+    print(compressa)
